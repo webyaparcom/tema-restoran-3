@@ -1,0 +1,40 @@
+{
+  "id": "tkhpl2qupp",
+  "name": {
+    "tr": "Üreticiler",
+    "en": "Growers",
+    "ar": "المنتجون"
+  },
+  "description": {
+    "tr": "Menüdeki ürünlerin geldiği çiftlikler (kurgusal).",
+    "en": "The farms our menu comes from (fictional).",
+    "ar": "المزارع التي تأتي منها قائمتنا (افتراضية)."
+  },
+  "keyword": {
+    "tr": "üretici, çiftlik, zeytin",
+    "en": "growers, farm, olive",
+    "ar": "منتجون، مزرعة، زيتون"
+  },
+  "path": "ureticiler",
+  "icon": "agriculture",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "k21gxl",
+      "7gak02"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Üreticiler",
+    "en": "Growers",
+    "ar": "المنتجون"
+  },
+  "date": "2026-10-31T14:32:59.952Z",
+  "update": "2026-11-05T22:24:45.904Z"
+}

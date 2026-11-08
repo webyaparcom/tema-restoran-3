@@ -1,0 +1,58 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Zeytindalı: zeytin bahçesinde mevsim mutfağı; üreticisi adıyla yazılan menü, alerjen kartı ve çevrimiçi masa rezervasyonu. (Demo site)",
+    "en": "Zeytindali: seasonal cooking in an olive garden, with a menu that names its growers, an allergen card and online table booking. (Demo site)",
+    "ar": "زيتينداله: مطبخ موسمي في حديقة زيتون، مع قائمة تذكر منتجيها وبطاقة مسببات الحساسية وحجز طاولات عبر الإنترنت. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "mevsim mutfağı, zeytin bahçesi, menü, rezervasyon, alerjen",
+    "en": "seasonal cuisine, olive garden, menu, reservation, allergen",
+    "ar": "مطبخ موسمي، حديقة زيتون، قائمة، حجز، مسببات الحساسية"
+  },
+  "category": "Kurumsal",
+  "name": "Zeytindalı",
+  "domain": "restoran-3.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "icon": "icon.png",
+  "theme_color": "#2E5E4E",
+  "phone": "+90 342 000 00 02",
+  "email": "sofra@zeytindali.example",
+  "publishMode": "static",
+  "colorScheme": "auto",
+  "seo": {
+    "noindex": true
+  },
+  "font": {
+    "body": "source-sans-3",
+    "heading": "fraunces",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-naskh-arabic"
+    }
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "0px",
+    "--mx-radius-md": "0px",
+    "--mx-radius-lg": "2px",
+    "--mx-radius-xl": "4px",
+    "--mx-shadow-md": "none",
+    "--mx-dur": "200ms"
+  }
+}

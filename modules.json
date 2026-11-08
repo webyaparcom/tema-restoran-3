@@ -1,0 +1,3560 @@
+{
+  "data": [
+    {
+      "index": 0,
+      "name": "Menu",
+      "path": "menu-2",
+      "local": "header",
+      "category": "menu",
+      "id": "t6mn01",
+      "desing": {
+        "bgcolor": "#1B3A4B",
+        "color": "#FAF7F2",
+        "activebgcolor": "#C4A035",
+        "activecolor": "#1B3A4B",
+        "height": "100px",
+        "ariaToggle": {
+          "tr": "Menüyü aç/kapat",
+          "en": "Toggle menu",
+          "ar": "تبديل القائمة"
+        },
+        "ariaClose": {
+          "tr": "Menüyü kapat",
+          "en": "Close menu"
+        },
+        "logobg": "transparent",
+        "logoborder": "none",
+        "logoradius": "0",
+        "logopad": "0",
+        "logopadmobil": "0",
+        "logomaxh": "100px",
+        "logoimg": "",
+        "langcolor": "currentColor",
+        "langbg": "transparent",
+        "tekSatir": ""
+      },
+      "version": "1.0.0",
+      "icon": "menu"
+    },
+    {
+      "name": "Slider Text",
+      "path": "slider-text",
+      "local": "header",
+      "category": "slider",
+      "id": "t6sl01",
+      "data": [
+        {
+          "bg": "1.webp",
+          "img": "",
+          "layout": "left",
+          "title": {
+            "tr": "Doğal Kalite"
+          },
+          "description": {
+            "tr": "Seçilmiş ürünler ve güvenilir tedarik."
+          },
+          "button": {
+            "tr": "Ürünler"
+          },
+          "link": "urunler"
+        },
+        {
+          "bg": "2.webp",
+          "img": "",
+          "layout": "right",
+          "title": {
+            "tr": "Geleneksel Üretim"
+          },
+          "description": {
+            "tr": "Yılların deneyimiyle özenli süreçler."
+          },
+          "button": {
+            "tr": "Hakkımızda"
+          },
+          "link": "hakkimizda"
+        },
+        {
+          "bg": "3.webp",
+          "img": "",
+          "title": {
+            "tr": "Birlikte Büyüyelim"
+          },
+          "description": {
+            "tr": "İş ortaklarımız için sürdürülebilir çözümler."
+          },
+          "button": {
+            "tr": "İletişim"
+          },
+          "link": "iletisim"
+        }
+      ],
+      "desing": {
+        "delay": 5000,
+        "height": "520px",
+        "max": "1200px",
+        "overlay": "0.42",
+        "align": "left",
+        "titlecolor": "#ffffff",
+        "desccolor": "rgba(255,255,255,0.9)",
+        "btncolor": "#1B3A4B",
+        "btnbg": "#C4A035",
+        "border_radius": "8px",
+        "margin": "0",
+        "layout": "",
+        "bgcolor": "#111111",
+        "prevLabel": {
+          "tr": "Önceki slayt",
+          "en": "Previous slide",
+          "ar": "الشريحة السابقة"
+        },
+        "nextLabel": {
+          "tr": "Sonraki slayt",
+          "en": "Next slide",
+          "ar": "الشريحة التالية"
+        }
+      },
+      "version": "1.0.0",
+      "icon": "view_carousel",
+      "index": 1
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "t6ct01",
+      "desing": {
+        "color": "#1B3A4B",
+        "name": {
+          "tr": "Bize Ulaşın"
+        },
+        "margin": "30px 0px 30px 0px",
+        "stil": "",
+        "linkcolor": "#1B3A6B"
+      },
+      "data": [
+        {
+          "icon": "phone",
+          "text": "0530 000 00 00",
+          "url": "tel:05300000000"
+        },
+        {
+          "icon": "email",
+          "text": "info@{{domain}}"
+        },
+        {
+          "icon": "map",
+          "text": "Adres Bilgisi Henüz eklenmedi Şehitkamil / Gaziantep"
+        }
+      ],
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "index": 2
+    },
+    {
+      "name": "Maps",
+      "path": "map",
+      "local": "body",
+      "category": "map",
+      "id": "t6mp01",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "img": "map.png",
+        "externalUrl": "",
+        "stil": "yan-bilgi",
+        "address": {
+          "tr": "Bağlar Yolu No: 3, Nizip, Gaziantep (kurgusal adres)",
+          "en": "3 Baglar Road, Nizip, Gaziantep (fictional address)",
+          "ar": "طريق باغلار رقم 3، نيزيب، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 02",
+        "email": "sofra@zeytindali.example",
+        "badgeText": {
+          "tr": "Konumumuz",
+          "en": "Our Location",
+          "ar": "موقعنا"
+        },
+        "infoTitle": {
+          "tr": "Bizi bulun",
+          "en": "Find us",
+          "ar": "جدنا"
+        },
+        "directions": {
+          "tr": "Yol tarifi",
+          "en": "Directions",
+          "ar": "الاتجاهات"
+        }
+      },
+      "version": "1.0.0",
+      "icon": "map",
+      "index": 3
+    },
+    {
+      "index": 4,
+      "name": "Page Desing",
+      "path": "page-desing-5",
+      "local": "body",
+      "category": "page",
+      "id": "t6pd01",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "32",
+        "backgroundcolor": "#000",
+        "menu-active": "var(--mx-site-primary, #2563eb)",
+        "stil": "kenar-cizgili",
+        "activetext": "#fff",
+        "textcolor": "#fff",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "border_radius": "0px",
+        "card_shadow": "none",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "colortitle": "#111111",
+        "coloractive": "#000000",
+        "ui": {
+          "tr": {
+            "home": "Anasayfa",
+            "products": "Sayfalar",
+            "dimensions": "Ölçüler",
+            "dimNote": "Standart üretim referansıdır; proje bazında özelleştirilebilir.",
+            "quote": "Rezervasyon",
+            "whatsapp": "WhatsApp",
+            "prev": "Önceki",
+            "next": "Sonraki"
+          },
+          "en": {
+            "home": "Home",
+            "products": "Pages",
+            "dimensions": "Dimensions",
+            "dimNote": "Standard production reference; customizable per project.",
+            "quote": "Reservation",
+            "whatsapp": "WhatsApp",
+            "prev": "Previous",
+            "next": "Next"
+          },
+          "ar": {
+            "home": "الرئيسية",
+            "products": "الصفحات",
+            "dimensions": "الأبعاد",
+            "dimNote": "مرجع إنتاج قياسي؛ قابل للتخصيص حسب المشروع.",
+            "quote": "الحجز",
+            "whatsapp": "واتساب",
+            "prev": "السابق",
+            "next": "التالي"
+          }
+        },
+        "noTitle": {
+          "tr": "Başlık Yok",
+          "en": "No title",
+          "ar": "بدون عنوان"
+        },
+        "productNavAria": {
+          "tr": "Ürün navigasyonu",
+          "en": "Product navigation",
+          "ar": "تنقل المنتج"
+        }
+      },
+      "version": "1.0.0",
+      "icon": "web"
+    },
+    {
+      "name": "Footer 1 B",
+      "path": "footer-1-b",
+      "local": "footer",
+      "category": "footer",
+      "id": "t6ft01",
+      "desing": {
+        "bgcolor": "#1B3A4B",
+        "color": "#FAF7F2",
+        "img": "",
+        "imgwidth": "250px",
+        "showlang": true
+      },
+      "data": [],
+      "version": "1.0.0",
+      "icon": "web_asset",
+      "index": 5
+    },
+    {
+      "id": "t6ls01",
+      "name": "Ana Sayfa Liste",
+      "path": "page-column-3",
+      "local": "body",
+      "category": "page-list",
+      "version": "1.0.0",
+      "icon": "grid_view",
+      "desing": {
+        "page": "page",
+        "bgcolor": "#1B3A4B",
+        "color": "#FAF7F2",
+        "height": "200px",
+        "font-size": "18px",
+        "opacity": "0.4",
+        "chilebgcolor": "#C4A035",
+        "chilecolor": "#1B3A4B",
+        "chilesize": "16px"
+      },
+      "index": 6
+    },
+    {
+      "id": "t6in01",
+      "name": "Tanitim",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "version": "1.1.0",
+      "icon": "business",
+      "desing": {
+        "name": {
+          "tr": "Tarlanın yazdığı menü",
+          "en": "A menu written by the field",
+          "ar": "قائمة تكتبها الأرض"
+        },
+        "description": {
+          "tr": "Zeytindalı, Nizip’te bir zeytin bahçesinin içinde mevsimin getirdiğini pişiren kurgusal bir demo restorandır. Menü haftada iki kez üreticiden gelen ürüne göre yazılır; her ürünün altında üreticisi ve alerjen kodları yer alır, fiyatlar nihaidir.",
+          "en": "Zeytindali is a fictional demo restaurant inside an olive garden in Nizip that cooks whatever the season brings. The menu is rewritten twice a week around what arrives from the growers; every item lists its grower and allergen codes, and prices are final.",
+          "ar": "زيتينداله مطعم تجريبي افتراضي داخل حديقة زيتون في نيزيب يطهو ما يجلبه الموسم. تُكتب القائمة مرتين في الأسبوع وفق ما يصل من المنتجين؛ ويُذكر تحت كل طبق منتجه ورموز مسببات الحساسية، والأسعار نهائية."
+        },
+        "name2": {
+          "tr": "Üretici adıyla",
+          "en": "Named growers",
+          "ar": "باسم المنتج"
+        },
+        "spot2": {
+          "tr": "Her tabağın yanında ürünün geldiği çiftlik yazılıdır.",
+          "en": "Next to every plate you will find the farm it came from.",
+          "ar": "بجانب كل طبق يُكتب اسم المزرعة التي جاء منها."
+        },
+        "icon2": "agriculture",
+        "name3": {
+          "tr": "Açık bilgi",
+          "en": "Clear information",
+          "ar": "معلومات واضحة"
+        },
+        "spot3": {
+          "tr": "Alerjen kodları ve nihai fiyatlar menüde yazılıdır.",
+          "en": "Allergen codes and final prices are printed on the menu.",
+          "ar": "رموز مسببات الحساسية والأسعار النهائية مدرجة في القائمة."
+        },
+        "icon3": "fact_check",
+        "img": "restoran-mekan-2.webp",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Zeytindalı",
+          "en": "Zeytindali",
+          "ar": "زيتينداله"
+        },
+        "stil": "cerceve-ofset"
+      },
+      "index": 7
+    },
+    {
+      "id": "t6st01",
+      "name": "İstatistik",
+      "path": "stats-1",
+      "local": "body",
+      "category": "stats",
+      "version": "1.0.0",
+      "icon": "monitoring",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, #1B3A4B 0%, #1B3A4Bdd 100%)",
+        "numbercolor": "#C4A035",
+        "labelcolor": "#e2e8f0",
+        "stil": "",
+        "iconsize": "56px",
+        "iconbox": "88px"
+      },
+      "data": [
+        {
+          "number": 150,
+          "suffix": "+",
+          "label": {
+            "tr": "Tamamlanan Proje",
+            "en": "Projects"
+          },
+          "icon": "task_alt"
+        },
+        {
+          "number": 50,
+          "suffix": "+",
+          "label": {
+            "tr": "Mutlu Müşteri",
+            "en": "Clients"
+          },
+          "icon": "sentiment_satisfied"
+        },
+        {
+          "number": 10,
+          "suffix": "+",
+          "label": {
+            "tr": "Yıllik Deneyim",
+            "en": "Years"
+          },
+          "icon": "workspace_premium"
+        },
+        {
+          "number": 24,
+          "suffix": "/7",
+          "label": {
+            "tr": "Destek",
+            "en": "Support"
+          },
+          "icon": "support_agent"
+        }
+      ],
+      "index": 8
+    },
+    {
+      "id": "t6ca01",
+      "name": "CTA",
+      "path": "cta-1",
+      "local": "body",
+      "category": "cta",
+      "version": "1.1.0",
+      "icon": "campaign",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "btnbg": "#ffffff",
+        "btncolor": "#10203A",
+        "title": {
+          "tr": "Bu hafta sonu bahçede",
+          "en": "This weekend in the garden",
+          "ar": "عطلة هذا الأسبوع في الحديقة"
+        },
+        "description": {
+          "tr": "Masanızı çevrimiçi ayırtın; mevsim menüsü ve alerjen kartı masanıza gelir.",
+          "en": "Book your table online; the seasonal menu and the allergen card come to your table.",
+          "ar": "احجز طاولتك عبر الإنترنت؛ تصلك قائمة الموسم وبطاقة مسببات الحساسية إلى طاولتك."
+        },
+        "btn1Text": {
+          "tr": "Masa ayırt",
+          "en": "Book a table",
+          "ar": "احجز طاولة"
+        },
+        "btn1Url": "rezervasyon",
+        "btn2Text": {
+          "tr": "Menüyü gör",
+          "en": "View the menu",
+          "ar": "تصفح القائمة"
+        },
+        "btn2Url": "menu",
+        "stil": "kart-yuzen"
+      },
+      "index": 9
+    },
+    {
+      "id": "t6plpr",
+      "name": "Ürünler Liste",
+      "path": "page-column-3",
+      "local": "body",
+      "category": "page-list",
+      "version": "1.0.0",
+      "icon": "grid_view",
+      "desing": {
+        "page": "products",
+        "bgcolor": "#1B3A4B",
+        "color": "#FAF7F2",
+        "height": "200px",
+        "font-size": "18px",
+        "opacity": "0.4",
+        "chilebgcolor": "#C4A035",
+        "chilecolor": "#1B3A4B",
+        "chilesize": "16px"
+      },
+      "index": 10
+    },
+    {
+      "name": "Demo Bandı",
+      "description": "Demo sitelerin her sayfasının üstünde duran, kapatılamaz bilgi şeridi: «Bu bir demo sitedir» uyarısı ve «Bu temayı iste» bağlantısı. Sayfanın en üstüne yapışır (position:sticky), sabit menüleri bant yüksekliği kadar aşağı iter (--mx-demo-bandi-h). Üç dil (TR/EN/AR), Arapçada RTL, mobilde iki satıra sarar.",
+      "version": "1.0.0",
+      "icon": "info",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "bant",
+        "uyarı",
+        "banner",
+        "rtl"
+      ],
+      "desing": {
+        "tone": "info",
+        "bandBg": "",
+        "bandFg": "",
+        "ctaHref": "https://webyapar.com/temalar",
+        "ariaLabel": {
+          "tr": "Demo site uyarısı",
+          "en": "Demo site notice",
+          "ar": "تنبيه الموقع التجريبي"
+        },
+        "text": {
+          "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+          "en": "This is a demo site — the content is fictional and no payment is taken",
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        }
+      },
+      "id": "c3yutz",
+      "path": "demo-bandi",
+      "local": "header",
+      "data": [],
+      "index": 11
+    },
+    {
+      "name": {
+        "tr": "Menü 9 — Ortalı logo",
+        "en": "Menu 9 — Centered logo",
+        "ar": "القائمة 9 — شعار في المنتصف"
+      },
+      "description": {
+        "tr": "Üstte ince bilgi bandı (telefon, e-posta, çalışma saati, sosyal, dil seçici — desing.bilgi_bandi ile açılır/kapanır), altında ortada logo; menü öğeleri logonun iki yanına bölünür (tek sayıda ise fazlası sağa). Mobilde hamburger + tam ekran panel. desing.sticky: kaydırınca küçülen sabit çubuk (300 ms). Ek bağlantılar data[] = [{name{tr,en,ar}, url}]. desing.stil: ince | cizgili | kutulu. Renkler yalnız desing anahtarı + var(--mx-site-*) — koyu mod otomatik. Üç dil + RTL.",
+        "en": "Thin info band on top (phone, email, working hours, social, language switcher — toggled by desing.bilgi_bandi), logo centered below; menu items split on both sides of the logo (odd count → extra item on the end side). Mobile: hamburger + full-screen panel. desing.sticky: fixed bar that shrinks on scroll (300 ms). Extra links via data[] = [{name{tr,en,ar}, url}]. desing.stil: ince | cizgili | kutulu. Colours only from desing keys + var(--mx-site-*) — dark mode automatic. Three languages + RTL.",
+        "ar": "شريط معلومات رفيع في الأعلى (هاتف، بريد، ساعات العمل، شبكات اجتماعية، محدد اللغة — يُفعَّل عبر desing.bilgi_bandi)، وتحته الشعار في المنتصف؛ تتوزع عناصر القائمة على جانبي الشعار (العدد الفردي → العنصر الزائد في جهة النهاية). على الجوال: زر القائمة + لوحة بملء الشاشة. desing.sticky: شريط ثابت يتقلّص عند التمرير (300 ms). روابط إضافية عبر data[] = [{name{tr,en,ar}, url}]. desing.stil: ince | cizgili | kutulu. الألوان من مفاتيح desing و var(--mx-site-*) فقط — الوضع الداكن تلقائي. ثلاث لغات + RTL."
+      },
+      "version": "1.0.0",
+      "icon": "align_horizontal_center",
+      "category": "menu",
+      "tags": [
+        "menu",
+        "ortali-logo",
+        "centered",
+        "bilgi-bandi",
+        "sticky",
+        "ar"
+      ],
+      "desing": {
+        "stil": "cizgili",
+        "logo": "{{logo}}",
+        "logo_h": "52px",
+        "max": "1200px",
+        "bilgi_bandi": true,
+        "sticky": true,
+        "showlang": true,
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #1b1b1b)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 70%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "band_bg": "var(--mx-site-surface-2, #ececea)",
+        "band_text": "var(--mx-site-text, #1b1b1b)",
+        "phone": "+90 342 000 00 02",
+        "email": "sofra@zeytindali.example",
+        "hours": {
+          "tr": "Salı – Pazar 12:00 – 22:00 · Pazartesi kapalı",
+          "en": "Tuesday – Sunday 12:00 – 22:00 · Closed Monday",
+          "ar": "الثلاثاء – الأحد 12:00 – 22:00 · الإثنين مغلق"
+        },
+        "social": []
+      },
+      "data": [],
+      "id": "jv3a1b",
+      "path": "menu-9",
+      "local": "header",
+      "index": 12
+    },
+    {
+      "name": "Footer 1",
+      "desing": {
+        "stil": "ortali-sade",
+        "showlang": true,
+        "bgcolor": "var(--mx-site-primary, #2E5E4E)",
+        "color": "var(--mx-site-primary-contrast, #ffffff)",
+        "img": "",
+        "imgwidth": "250px",
+        "maxpages": 8,
+        "phone": "+90 342 000 00 02",
+        "email": "sofra@zeytindali.example",
+        "address": {
+          "tr": "Bağlar Yolu No: 3, Nizip, Gaziantep (kurgusal adres)",
+          "en": "3 Baglar Road, Nizip, Gaziantep (fictional address)",
+          "ar": "طريق باغلار رقم 3، نيزيب، غازي عنتاب (عنوان افتراضي)"
+        },
+        "logo_plate": true,
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 78%, transparent)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 24%, transparent)",
+        "accent": "var(--mx-site-primary-contrast, #ffffff)",
+        "about": {
+          "tr": "Zeytin bahçesinde mevsim mutfağı; üreticisi adıyla yazılan menü. Kurgusal demo restoran.",
+          "en": "Seasonal cooking in an olive garden; a menu that names its growers. A fictional demo restaurant.",
+          "ar": "مطبخ موسمي في حديقة زيتون؛ قائمة تذكر منتجيها. مطعم تجريبي افتراضي."
+        },
+        "legal": [
+          {
+            "name": {
+              "tr": "Hakkımızda",
+              "en": "About us",
+              "ar": "من نحن"
+            },
+            "href": "hakkimizda"
+          },
+          {
+            "name": {
+              "tr": "Kişisel veriler",
+              "en": "Personal data",
+              "ar": "البيانات الشخصية"
+            },
+            "href": "kisiselveriler"
+          }
+        ],
+        "showsocial": true,
+        "social": [],
+        "langcolor": ""
+      },
+      "category": "footer",
+      "data": [],
+      "description": "Evrensel alt bilgi (footer) bölüm modülü. Firma logosu, telif hakları metni, iletişim bilgileri ve sosyal medya ikonlarını responsive tasarımda sunar. 41 farklı projede kullanılır: tüm sektörlerden kurumsal, e-ticaret, restoran, sağlık, ajans, hizmet firmalarında. Tüm sayfa türlerinde standart footer yapısı sağlar. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (dalgalı üst kenar, ortalı yığın, bugünkü görünüm) · \"cizgili\" (üç sütun: sosyal | sayfalar | dil, ince dikey ayraçlar, telif alt şeritte) · \"ortali-sade\" (dalga yok, tek sütun ortalı, büyük daire çerçeveli sosyal ikonlar, nokta ayraçlı menü). Ayraç/çerçeve renkleri color anahtarının color-mix türevi.",
+      "version": "1.1.0",
+      "icon": "web_asset",
+      "id": "bgu52h",
+      "path": "footer-1",
+      "local": "footer",
+      "index": 13
+    },
+    {
+      "name": "Demo Kredi Şeridi",
+      "description": "Demo sitelerin alt bilgisinde duran kredi şeridi: «Bu demo Webyapar tarafından hazırlanmıştır — Bu temayı iste». Marka adı çevrilmez (Latin, dir=ltr izole), bağlantı demo adına göre webyapar.com/temalar#<slug>. Üç dil (TR/EN/AR), mantıksal CSS (RTL), mobilde sarar, reduced-motion'a saygılı.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "footer",
+        "kredi",
+        "rtl"
+      ],
+      "desing": {
+        "href": "https://webyapar.com/temalar#restoran-3",
+        "brand": "Webyapar",
+        "text": {
+          "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
+          "en": "This demo was prepared by {brand} —",
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "ariaLabel": {
+          "tr": "Demo bilgisi",
+          "en": "Demo credit",
+          "ar": "معلومات العرض التجريبي"
+        }
+      },
+      "id": "mbl793",
+      "path": "demo-kredi",
+      "local": "footer",
+      "data": [],
+      "index": 14
+    },
+    {
+      "name": {
+        "tr": "Hero 6 — Bento",
+        "en": "Hero 6 — Bento",
+        "ar": "هيرو 6 — بينتو"
+      },
+      "description": {
+        "tr": "12 sütunlu bento hero: büyük görsel kart (7 sütun) + küçük kartlar (istatistik / alıntı / mini CTA) + altta geniş metin kartı (eyebrow, h1, paragraf, CTA). Kartlar data[] (= kartlar): {tur: gorsel|sayi|alinti|cta, …} üç dil. Kartlar ince kenar + radius, hover'da hafif yükselme. desing.stil: bento | mozaik (kartlar farklı boyda) | duz (kart zemini yok, çizgi ayraç). Koyu mod token'dan; RTL mantıksal özelliklerle.",
+        "en": "12-column bento hero: large image card (7 cols) + small cards (stat / quote / mini CTA) + a wide text card at the bottom (eyebrow, h1, paragraph, CTA). Cards in data[] (= kartlar): {tur: gorsel|sayi|alinti|cta, …} in three languages. Thin border + radius, slight lift on hover. desing.stil: bento | mozaik (varying card heights) | duz (no card background, hairline separators). Dark mode via tokens; RTL via logical properties.",
+        "ar": "هيرو بينتو بشبكة 12 عمودًا: بطاقة صورة كبيرة (7 أعمدة) + بطاقات صغيرة (إحصائية / اقتباس / دعوة مصغّرة) + بطاقة نصية عريضة في الأسفل (تسمية، h1، فقرة، زر). البطاقات في data[] (= kartlar): {tur: gorsel|sayi|alinti|cta، …} بثلاث لغات. حدود رفيعة وزوايا، ارتفاع خفيف عند التحويم. desing.stil: bento | mozaik (أحجام مختلفة) | duz (بدون خلفية بطاقة، فواصل خطية). الوضع الداكن من الرموز؛ RTL بالخصائص المنطقية."
+      },
+      "version": "1.0.0",
+      "icon": "dashboard",
+      "category": "hero",
+      "tags": [
+        "hero",
+        "bento",
+        "grid",
+        "kart",
+        "istatistik",
+        "alinti",
+        "ar"
+      ],
+      "desing": {
+        "stil": "duz",
+        "max": "1200px",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "text": "var(--mx-site-text, #1b1b1b)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 12%, transparent)",
+        "radius": "0px",
+        "eyebrow": {
+          "tr": "Mevsim mutfağı · Nizip",
+          "en": "Seasonal kitchen · Nizip",
+          "ar": "مطبخ موسمي · نيزيب"
+        },
+        "title": {
+          "tr": "Zeytin ağaçlarının altında, mevsimin tabağı",
+          "en": "Under the olive trees, the plate of the season",
+          "ar": "تحت أشجار الزيتون، طبق الموسم"
+        },
+        "metin": {
+          "tr": "Menü haftada iki kez üreticiden gelene göre yazılır. Alerjen kodları ve nihai fiyatlar her tabağın altında.",
+          "en": "The menu is rewritten twice a week around what the growers bring. Allergen codes and final prices sit under every plate.",
+          "ar": "تُكتب القائمة مرتين في الأسبوع وفق ما يجلبه المنتجون. رموز مسببات الحساسية والأسعار النهائية تحت كل طبق."
+        },
+        "cta1": {
+          "tr": "Masa ayırt",
+          "en": "Book a table",
+          "ar": "احجز طاولة"
+        },
+        "cta1_url": "rezervasyon",
+        "cta2": {
+          "tr": "Bu haftanın menüsü",
+          "en": "This week’s menu",
+          "ar": "قائمة هذا الأسبوع"
+        },
+        "cta2_url": "menu"
+      },
+      "data": [
+        {
+          "tur": "gorsel",
+          "img": "/img/restoran-mekan-1.webp",
+          "alt": {
+            "tr": "Gün ışığı alan salon ve ahşap masalar",
+            "en": "Daylit dining room with wooden tables",
+            "ar": "صالة مضاءة بضوء النهار وطاولات خشبية"
+          },
+          "etiket": {
+            "tr": "Salon",
+            "en": "Dining room",
+            "ar": "الصالة"
+          }
+        },
+        {
+          "tur": "sayi",
+          "icon": "eco",
+          "deger": "4",
+          "etiket": {
+            "tr": "Üretici, adıyla menüde",
+            "en": "Growers named on the menu",
+            "ar": "منتجين بأسمائهم في القائمة"
+          }
+        },
+        {
+          "tur": "alinti",
+          "metin": {
+            "tr": "Her tabak, geldiği tarlayı anlatır.",
+            "en": "Every plate tells of the field it came from.",
+            "ar": "كل طبق يحكي عن الحقل الذي جاء منه."
+          },
+          "kisi": {
+            "tr": "Şef",
+            "en": "Chef",
+            "ar": "الشيف"
+          },
+          "rol": {
+            "tr": "Zeytindalı mutfağı",
+            "en": "Zeytindali kitchen",
+            "ar": "مطبخ زيتينداله"
+          }
+        },
+        {
+          "tur": "cta",
+          "icon": "event_seat",
+          "baslik": {
+            "tr": "Bahçede masa",
+            "en": "A table in the garden",
+            "ar": "طاولة في الحديقة"
+          },
+          "metin": {
+            "tr": "Salı – Pazar, 12:00 – 22:00",
+            "en": "Tuesday – Sunday, 12:00 – 22:00",
+            "ar": "الثلاثاء – الأحد، 12:00 – 22:00"
+          },
+          "cta": {
+            "tr": "Rezervasyon",
+            "en": "Reservation",
+            "ar": "الحجز"
+          },
+          "url": "rezervasyon"
+        }
+      ],
+      "id": "ygms5d",
+      "path": "hero-6",
+      "local": "body",
+      "index": 15
+    },
+    {
+      "name": "Süreç Adımları",
+      "description": "3–6 adımlık süreç anlatımı: çizgi/ok ile bağlı daire numaralar, altında başlık + metin. Aktif adım vurgusu kaydırmayla ilerler (IntersectionObserver; JS yoksa tüm adımlar düz görünür). desing.stil: yatay (çizgiyle bağlı sıra; mobilde dikey zaman çizgisi) | dikey (iki yanlı zaman çizgisi) | kartli (kart + ok ayraç). Veri: data[] = [{no?, baslik{tr,en,ar}, metin{}, ikon?}]. Renkler yalnız token; koyu mod otomatik; RTL'de ok/çizgi yönü aynalanır.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "category": "surec",
+      "tags": [
+        "süreç",
+        "adım",
+        "zaman çizgisi",
+        "process",
+        "steps",
+        "ar"
+      ],
+      "desing": {
+        "stil": "yatay",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "0px",
+        "eyebrow": {
+          "tr": "Tarladan sofraya",
+          "en": "From field to table",
+          "ar": "من الحقل إلى المائدة"
+        },
+        "title": {
+          "tr": "Bir tabağın dört adımı",
+          "en": "Four steps of a plate",
+          "ar": "أربع خطوات لطبق واحد"
+        },
+        "description": {
+          "tr": "Menü nasıl yazılır, tabak nasıl kurulur.",
+          "en": "How the menu is written and the plate is built.",
+          "ar": "كيف تُكتب القائمة ويُجهَّز الطبق."
+        },
+        "stepLabel": {
+          "tr": "Adım {n}",
+          "en": "Step {n}",
+          "ar": "الخطوة {n}"
+        },
+        "listLabel": {
+          "tr": "Süreç adımları",
+          "en": "Process steps",
+          "ar": "خطوات العملية"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "Hasat",
+            "en": "Harvest",
+            "ar": "الحصاد"
+          },
+          "metin": {
+            "tr": "Salı ve cuma sabahı üreticiden gelen sebze, un ve zeytinyağı kilere girer.",
+            "en": "On Tuesday and Friday mornings the growers’ vegetables, flour and olive oil arrive in the pantry.",
+            "ar": "صباح الثلاثاء والجمعة تصل خضار المنتجين ودقيقهم وزيت زيتونهم إلى المخزن."
+          },
+          "ikon": "agriculture"
+        },
+        {
+          "baslik": {
+            "tr": "Menü",
+            "en": "Menu",
+            "ar": "القائمة"
+          },
+          "metin": {
+            "tr": "Şef o gün geleni yazar; her ürüne üretici adı ve alerjen kodu eklenir.",
+            "en": "The chef writes around what arrived; each item gets its grower’s name and allergen code.",
+            "ar": "يكتب الشيف وفق ما وصل؛ ويُضاف لكل طبق اسم منتجه ورمز مسببات الحساسية."
+          },
+          "ikon": "edit_note"
+        },
+        {
+          "baslik": {
+            "tr": "Ateş",
+            "en": "Fire",
+            "ar": "النار"
+          },
+          "metin": {
+            "tr": "Taş fırın ve kömür; güveçler ağır ateşte sabahtan pişer.",
+            "en": "Stone oven and charcoal; casseroles cook slowly from the morning on.",
+            "ar": "فرن حجري وفحم؛ تُطهى الطواجن على نار هادئة منذ الصباح."
+          },
+          "ikon": "local_fire_department"
+        },
+        {
+          "baslik": {
+            "tr": "Sofra",
+            "en": "Table",
+            "ar": "المائدة"
+          },
+          "metin": {
+            "tr": "Alerjen kartı masaya gelir; fiyatlar nihaidir, sürpriz yoktur.",
+            "en": "The allergen card comes to the table; prices are final, with no surprises.",
+            "ar": "تصل بطاقة مسببات الحساسية إلى الطاولة؛ الأسعار نهائية ولا مفاجآت."
+          },
+          "ikon": "restaurant"
+        }
+      ],
+      "id": "7gak02",
+      "path": "surec-adimlar",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": "Karşılaştırma / Paket Tablosu",
+      "description": "Sütun = paket (2–4), satır = özellik; hücre ✓ / ✗ / metin; «önerilen» sütun vurgusu (token); mobilde sütunlar yatay kaydırılır, ilk sütun sabit (position: sticky); altta CTA satırı. desing.stil: cizgili (zebra + çizgi) | kartli-sutun (her sütun ayrı kart) | sade. Veri: desing.paketler[] = [{id, ad{tr,en,ar}, fiyat, fiyatNot{}, onerilen, ctaLabel{}?, url}], data[] = satırlar [{ad{}, degerler[]}] (deger: true/false/sayı/metin/{tr,en,ar}). Renkler yalnız token; koyu mod otomatik; RTL mantıksal CSS.",
+      "version": "1.0.0",
+      "icon": "table_chart",
+      "category": "fiyat",
+      "tags": [
+        "karşılaştırma",
+        "paket",
+        "fiyat",
+        "tablo",
+        "pricing",
+        "compare",
+        "ar"
+      ],
+      "desing": {
+        "stil": "sade",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "0px",
+        "eyebrow": {
+          "tr": "Menü seçenekleri",
+          "en": "Menu options",
+          "ar": "خيارات القائمة"
+        },
+        "title": {
+          "tr": "Üç sofra, üç tempo",
+          "en": "Three tables, three tempos",
+          "ar": "ثلاث موائد وثلاثة إيقاعات"
+        },
+        "description": {
+          "tr": "Fiyatlar kişi başı, KDV dahil nihai fiyatlardır. Alerjen kartı her seçenekte masaya gelir.",
+          "en": "Prices are per person, final and including VAT. The allergen card comes to the table with every option.",
+          "ar": "الأسعار للشخص الواحد، نهائية وتشمل ضريبة القيمة المضافة. تصل بطاقة مسببات الحساسية إلى الطاولة مع كل خيار."
+        },
+        "featureHeader": {
+          "tr": "Neler var?",
+          "en": "What is included",
+          "ar": "ما الذي يشمله"
+        },
+        "recommendedLabel": {
+          "tr": "En çok seçilen",
+          "en": "Most chosen",
+          "ar": "الأكثر اختيارًا"
+        },
+        "yesLabel": {
+          "tr": "Dahil",
+          "en": "Included",
+          "ar": "مشمول"
+        },
+        "noLabel": {
+          "tr": "Dahil değil",
+          "en": "Not included",
+          "ar": "غير مشمول"
+        },
+        "ctaLabel": {
+          "tr": "Masa ayırt",
+          "en": "Book a table",
+          "ar": "احجز طاولة"
+        },
+        "tableLabel": {
+          "tr": "Paket karşılaştırma tablosu",
+          "en": "Plan comparison table",
+          "ar": "جدول مقارنة الباقات"
+        },
+        "scrollHint": {
+          "tr": "Tabloyu yana kaydırın",
+          "en": "Swipe the table sideways",
+          "ar": "اسحب الجدول جانبيًا"
+        },
+        "paketler": [
+          {
+            "id": "ogle",
+            "ad": {
+              "tr": "Öğle sofrası",
+              "en": "Lunch table",
+              "ar": "مائدة الغداء"
+            },
+            "fiyat": "450 ₺",
+            "fiyatNot": {
+              "tr": "kişi başı · KDV dahil",
+              "en": "per person · incl. VAT",
+              "ar": "للشخص · شامل الضريبة"
+            },
+            "onerilen": false,
+            "url": "rezervasyon"
+          },
+          {
+            "id": "mevsim",
+            "ad": {
+              "tr": "Mevsim sofrası",
+              "en": "Seasonal table",
+              "ar": "مائدة الموسم"
+            },
+            "fiyat": "790 ₺",
+            "fiyatNot": {
+              "tr": "kişi başı · KDV dahil",
+              "en": "per person · incl. VAT",
+              "ar": "للشخص · شامل الضريبة"
+            },
+            "onerilen": true,
+            "url": "rezervasyon"
+          },
+          {
+            "id": "sef",
+            "ad": {
+              "tr": "Şef masası",
+              "en": "Chef’s table",
+              "ar": "طاولة الشيف"
+            },
+            "fiyat": "1.450 ₺",
+            "fiyatNot": {
+              "tr": "kişi başı · KDV dahil",
+              "en": "per person · incl. VAT",
+              "ar": "للشخص · شامل الضريبة"
+            },
+            "onerilen": false,
+            "url": "rezervasyon"
+          }
+        ]
+      },
+      "data": [
+        {
+          "ad": {
+            "tr": "Tabak sayısı",
+            "en": "Number of plates",
+            "ar": "عدد الأطباق"
+          },
+          "degerler": [
+            "3",
+            "5",
+            "8"
+          ]
+        },
+        {
+          "ad": {
+            "tr": "Alerjen kartı masada",
+            "en": "Allergen card at the table",
+            "ar": "بطاقة مسببات الحساسية على الطاولة"
+          },
+          "degerler": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "ad": {
+            "tr": "Vegan seçenek",
+            "en": "Vegan option",
+            "ar": "خيار نباتي صرف"
+          },
+          "degerler": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "ad": {
+            "tr": "Bahçe masası",
+            "en": "Garden table",
+            "ar": "طاولة في الحديقة"
+          },
+          "degerler": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "ad": {
+            "tr": "Şefle tanışma",
+            "en": "Meet the chef",
+            "ar": "لقاء الشيف"
+          },
+          "degerler": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "ad": {
+            "tr": "Süre",
+            "en": "Duration",
+            "ar": "المدة"
+          },
+          "degerler": [
+            {
+              "tr": "60 dk",
+              "en": "60 min",
+              "ar": "60 دقيقة"
+            },
+            {
+              "tr": "120 dk",
+              "en": "120 min",
+              "ar": "120 دقيقة"
+            },
+            {
+              "tr": "180 dk",
+              "en": "180 min",
+              "ar": "180 دقيقة"
+            }
+          ]
+        }
+      ],
+      "id": "4g60jj",
+      "path": "karsilastirma-tablo",
+      "local": "body",
+      "index": 17
+    },
+    {
+      "name": {
+        "tr": "Yorum Karuseli 3",
+        "en": "Testimonial Carousel 3",
+        "ar": "شريط آراء العملاء 3"
+      },
+      "description": {
+        "tr": "Müşteri yorumları karuseli: yıldız + alıntı + kişi (avatar ya da baş harf, ad, unvan/şirket, isteğe bağlı logo). Otomatik kaydırma (durdur/başlat düğmesi, hover ve odakta durur, reduced-motion'da kapalı), nokta + ok, klavye (←/→), swipe (pointer). Bağımlılık yok. Üç varyant (desing.stil): kart-karusel · buyuk-alinti (tek, ortalı) · masonry (3 sütun statik duvar). Üç dil, RTL, koyu mod token'larla.",
+        "en": "Customer testimonial carousel: stars + quote + person (avatar or initials, name, role/company, optional logo). Autoplay (pause/play button, pauses on hover and focus, off under reduced-motion), dots + arrows, keyboard (←/→), swipe (pointer events). No dependencies. Three variants (desing.stil): kart-karusel · buyuk-alinti (single, centred) · masonry (static 3-column wall). Three languages, RTL, dark mode via tokens.",
+        "ar": "شريط آراء العملاء: نجوم + اقتباس + شخص (صورة أو أحرف أولى، الاسم، المسمّى/الشركة، شعار اختياري). تشغيل تلقائي (زر إيقاف/تشغيل، يتوقف عند التمرير والتركيز، معطّل عند تقليل الحركة)، نقاط وأسهم، لوحة مفاتيح، سحب. ثلاثة أنماط، ثلاث لغات، RTL، وضع داكن."
+      },
+      "version": "1.0.0",
+      "icon": "format_quote",
+      "category": "testimonial",
+      "tags": [
+        "yorum",
+        "testimonial",
+        "karusel",
+        "referans",
+        "review",
+        "ar"
+      ],
+      "desing": {
+        "max": "1200px",
+        "stil": "masonry",
+        "autoplay": true,
+        "interval": 5000,
+        "bgcolor": "var(--mx-site-surface, #f6f6f4)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 70%, var(--mx-site-surface, #f6f6f4))",
+        "cardbg": "var(--mx-site-bg, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "starcolor": "color-mix(in srgb, var(--mx-color-warning, #d97706) 65%, var(--mx-site-text, #1b1b1b))",
+        "radius": "0px",
+        "title": {
+          "tr": "Misafir defteri",
+          "en": "Guest book",
+          "ar": "سجل الضيوف"
+        },
+        "description": {
+          "tr": "Kurgusal demo yorumlar.",
+          "en": "Fictional demo reviews.",
+          "ar": "تقييمات تجريبية افتراضية."
+        },
+        "regionLabel": {
+          "tr": "Müşteri yorumları",
+          "en": "Customer testimonials",
+          "ar": "آراء العملاء"
+        },
+        "prevLabel": {
+          "tr": "Önceki yorum",
+          "en": "Previous testimonial",
+          "ar": "الرأي السابق"
+        },
+        "nextLabel": {
+          "tr": "Sonraki yorum",
+          "en": "Next testimonial",
+          "ar": "الرأي التالي"
+        },
+        "pauseLabel": {
+          "tr": "Otomatik kaydırmayı durdur",
+          "en": "Pause autoplay",
+          "ar": "إيقاف التشغيل التلقائي"
+        },
+        "playLabel": {
+          "tr": "Otomatik kaydırmayı başlat",
+          "en": "Start autoplay",
+          "ar": "بدء التشغيل التلقائي"
+        },
+        "dotLabel": {
+          "tr": "{n}. sayfa",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "slideLabel": {
+          "tr": "{i} / {n}",
+          "en": "{i} of {n}",
+          "ar": "{i} من {n}"
+        },
+        "ratingLabel": {
+          "tr": "5 üzerinden {n} yıldız",
+          "en": "{n} out of 5 stars",
+          "ar": "{n} من 5 نجوم"
+        },
+        "quoteLabel": {
+          "tr": "Alıntı",
+          "en": "Quote",
+          "ar": "اقتباس"
+        }
+      },
+      "data": [
+        {
+          "name": "Elif S.",
+          "role": {
+            "tr": "Misafir (demo yorum)",
+            "en": "Guest (demo review)",
+            "ar": "ضيفة (تقييم تجريبي)"
+          },
+          "company": "",
+          "rating": 5,
+          "img": "",
+          "logo": "",
+          "text": {
+            "tr": "Mevsim menüsü her gelişimizde farklı; alerjen kartı masaya geliyor, çocuğumuz için çok rahatlatıcı.",
+            "en": "The seasonal menu is different every visit; the allergen card comes to the table, which is reassuring for our child.",
+            "ar": "قائمة الموسم تختلف في كل زيارة؛ وبطاقة مسببات الحساسية تأتي إلى الطاولة، وهذا مطمئن لطفلنا."
+          }
+        },
+        {
+          "name": "Can Y.",
+          "role": {
+            "tr": "Misafir (demo yorum)",
+            "en": "Guest (demo review)",
+            "ar": "ضيف (تقييم تجريبي)"
+          },
+          "company": "",
+          "rating": 5,
+          "img": "",
+          "logo": "",
+          "text": {
+            "tr": "Zeytin ağaçlarının altında uzun bir öğle yemeği. Şef masası için haftalar önceden yer ayırtın.",
+            "en": "A long lunch under the olive trees. Book the chef’s table weeks ahead.",
+            "ar": "غداء طويل تحت أشجار الزيتون. احجزوا طاولة الشيف قبل أسابيع."
+          }
+        },
+        {
+          "name": "Nur K.",
+          "role": {
+            "tr": "Misafir (demo yorum)",
+            "en": "Guest (demo review)",
+            "ar": "ضيفة (تقييم تجريبي)"
+          },
+          "company": "",
+          "rating": 4,
+          "img": "",
+          "logo": "",
+          "text": {
+            "tr": "Sebze güveç ve zeytinyağlı kek için tekrar geleceğiz.",
+            "en": "We will be back for the vegetable casserole and the olive oil cake.",
+            "ar": "سنعود من أجل طاجن الخضار وكعكة زيت الزيتون."
+          }
+        },
+        {
+          "name": "Barış T.",
+          "role": {
+            "tr": "Misafir (demo yorum)",
+            "en": "Guest (demo review)",
+            "ar": "ضيف (تقييم تجريبي)"
+          },
+          "company": "",
+          "rating": 5,
+          "img": "",
+          "logo": "",
+          "text": {
+            "tr": "Üreticilerin adını menüde görmek güzel; her tabak bir hikâye anlatıyor.",
+            "en": "Seeing the growers’ names on the menu is lovely; every plate tells a story.",
+            "ar": "رؤية أسماء المنتجين في القائمة أمر جميل؛ كل طبق يروي حكاية."
+          }
+        }
+      ],
+      "id": "ulkk1w",
+      "path": "testimonial-3",
+      "local": "body",
+      "index": 18
+    },
+    {
+      "name": "Menü / Fiyat Listesi",
+      "description": "Kategorili menü ve hizmet fiyat listesi (30 Eki 2026). Menü kipi: 14 alerjen (AB 1169/2011) ikon + kısaltma rozeti, alerjen rehberi tablosu, alerjene göre hariç tutma filtresi (MxFiltre), etiketler, kategori sekmeleri (RTL ok tuşu), arama, yazdırma/QR menü düzeni. Fiyat kipi: süre + fiyat satırı. Üç dil (tr/en/ar).",
+      "version": "1.0.0",
+      "icon": "restaurant_menu",
+      "category": "menu",
+      "tags": [
+        "menu",
+        "fiyat-listesi",
+        "alerjen",
+        "qr-menu"
+      ],
+      "desing": {
+        "max": "980px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 48%, var(--mx-site-bg, #ffffff))",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "stickyTop": "0px",
+        "mode": "menu",
+        "currency": "₺",
+        "showAllergens": true,
+        "allergenLegend": true,
+        "print": true,
+        "filter": true,
+        "search": true,
+        "allTab": true,
+        "filterTags": [
+          "vegan",
+          "vegetarian"
+        ],
+        "badge": {
+          "tr": "Menü",
+          "en": "Menu",
+          "ar": "القائمة"
+        },
+        "title": {
+          "tr": "Bu mevsim sofrada",
+          "en": "On the table this season",
+          "ar": "على المائدة هذا الموسم"
+        },
+        "description": {
+          "tr": "Menü mevsimle değişir. Alerjen kodları her ürünün altında yer alır.",
+          "en": "The menu changes with the season. Allergen codes are listed under every item.",
+          "ar": "تتغير القائمة مع الموسم. رموز مسببات الحساسية مدرجة تحت كل طبق."
+        },
+        "priceNote": {
+          "tr": "Tüm fiyatlar KDV dahil nihai fiyatlardır.",
+          "en": "All prices are final prices including VAT.",
+          "ar": "جميع الأسعار نهائية وتشمل ضريبة القيمة المضافة."
+        },
+        "legalNote": {
+          "tr": "Alerjen bilgisi için lütfen personele danışın; mutfakta çapraz bulaşma olabilir.",
+          "en": "For allergen information please ask our staff; cross-contact may occur in the kitchen.",
+          "ar": "للاستفسار عن مسببات الحساسية يُرجى سؤال العاملين؛ فقد يحدث تلامس متبادل في المطبخ."
+        },
+        "tagLabels": {
+          "vegan": {
+            "tr": "Vegan",
+            "en": "Vegan",
+            "ar": "نباتي صرف"
+          },
+          "vegetarian": {
+            "tr": "Vejetaryen",
+            "en": "Vegetarian",
+            "ar": "نباتي"
+          },
+          "spicy": {
+            "tr": "Acı",
+            "en": "Spicy",
+            "ar": "حار"
+          },
+          "new": {
+            "tr": "Yeni",
+            "en": "New",
+            "ar": "جديد"
+          },
+          "chef": {
+            "tr": "Şefin önerisi",
+            "en": "Chef's pick",
+            "ar": "اختيار الشيف"
+          }
+        },
+        "tagIcons": {
+          "vegan": "eco",
+          "vegetarian": "grass",
+          "spicy": "local_fire_department",
+          "new": "new_releases",
+          "chef": "workspace_premium"
+        },
+        "allergens": {
+          "gluten": {
+            "icon": "grain",
+            "code": {
+              "tr": "GLU",
+              "en": "GLU",
+              "ar": "غل"
+            },
+            "name": {
+              "tr": "Gluten içeren tahıllar",
+              "en": "Cereals containing gluten",
+              "ar": "الحبوب المحتوية على الغلوتين"
+            }
+          },
+          "crustaceans": {
+            "icon": "pest_control",
+            "code": {
+              "tr": "KBK",
+              "en": "CRU",
+              "ar": "قش"
+            },
+            "name": {
+              "tr": "Kabuklular",
+              "en": "Crustaceans",
+              "ar": "القشريات"
+            }
+          },
+          "eggs": {
+            "icon": "egg_alt",
+            "code": {
+              "tr": "YMR",
+              "en": "EGG",
+              "ar": "بض"
+            },
+            "name": {
+              "tr": "Yumurta",
+              "en": "Eggs",
+              "ar": "البيض"
+            }
+          },
+          "fish": {
+            "icon": "set_meal",
+            "code": {
+              "tr": "BLK",
+              "en": "FSH",
+              "ar": "سك"
+            },
+            "name": {
+              "tr": "Balık",
+              "en": "Fish",
+              "ar": "السمك"
+            }
+          },
+          "peanuts": {
+            "icon": "eco",
+            "code": {
+              "tr": "FST",
+              "en": "PNT",
+              "ar": "فس"
+            },
+            "name": {
+              "tr": "Yer fıstığı",
+              "en": "Peanuts",
+              "ar": "الفول السوداني"
+            }
+          },
+          "soy": {
+            "icon": "grass",
+            "code": {
+              "tr": "SOY",
+              "en": "SOY",
+              "ar": "صو"
+            },
+            "name": {
+              "tr": "Soya",
+              "en": "Soy",
+              "ar": "الصويا"
+            }
+          },
+          "milk": {
+            "icon": "local_drink",
+            "code": {
+              "tr": "SÜT",
+              "en": "MLK",
+              "ar": "حل"
+            },
+            "name": {
+              "tr": "Süt ve süt ürünleri",
+              "en": "Milk and dairy",
+              "ar": "الحليب ومشتقاته"
+            }
+          },
+          "nuts": {
+            "icon": "forest",
+            "code": {
+              "tr": "SKY",
+              "en": "NUT",
+              "ar": "مك"
+            },
+            "name": {
+              "tr": "Sert kabuklu yemişler",
+              "en": "Tree nuts",
+              "ar": "المكسرات"
+            }
+          },
+          "celery": {
+            "icon": "potted_plant",
+            "code": {
+              "tr": "KRZ",
+              "en": "CEL",
+              "ar": "كر"
+            },
+            "name": {
+              "tr": "Kereviz",
+              "en": "Celery",
+              "ar": "الكرفس"
+            }
+          },
+          "mustard": {
+            "icon": "water_drop",
+            "code": {
+              "tr": "HRD",
+              "en": "MUS",
+              "ar": "خر"
+            },
+            "name": {
+              "tr": "Hardal",
+              "en": "Mustard",
+              "ar": "الخردل"
+            }
+          },
+          "sesame": {
+            "icon": "scatter_plot",
+            "code": {
+              "tr": "SSM",
+              "en": "SES",
+              "ar": "سم"
+            },
+            "name": {
+              "tr": "Susam",
+              "en": "Sesame",
+              "ar": "السمسم"
+            }
+          },
+          "sulphites": {
+            "icon": "science",
+            "code": {
+              "tr": "SO2",
+              "en": "SO2",
+              "ar": "SO2"
+            },
+            "name": {
+              "tr": "Sülfür dioksit ve sülfitler",
+              "en": "Sulphur dioxide and sulphites",
+              "ar": "ثاني أكسيد الكبريت والكبريتيت"
+            }
+          },
+          "lupin": {
+            "icon": "local_florist",
+            "code": {
+              "tr": "ABK",
+              "en": "LUP",
+              "ar": "تر"
+            },
+            "name": {
+              "tr": "Acı bakla",
+              "en": "Lupin",
+              "ar": "الترمس"
+            }
+          },
+          "molluscs": {
+            "icon": "water",
+            "code": {
+              "tr": "YMK",
+              "en": "MOL",
+              "ar": "رخ"
+            },
+            "name": {
+              "tr": "Yumuşakçalar",
+              "en": "Molluscs",
+              "ar": "الرخويات"
+            }
+          }
+        },
+        "categories": [
+          {
+            "id": "bahce",
+            "name": {
+              "tr": "Bahçeden",
+              "en": "From the garden",
+              "ar": "من الحديقة"
+            },
+            "items": [
+              {
+                "name": {
+                  "tr": "Mevsim yeşillikleri",
+                  "en": "Seasonal greens",
+                  "ar": "خضار الموسم الورقية"
+                },
+                "desc": {
+                  "tr": "Bahçeden toplanan yeşillikler, nar ekşisi ve zeytinyağı.",
+                  "en": "Greens picked from the garden, pomegranate molasses and olive oil.",
+                  "ar": "خضار ورقية من الحديقة مع دبس الرمان وزيت الزيتون."
+                },
+                "price": 130,
+                "allergens": [],
+                "tags": [
+                  "vegan"
+                ],
+                "img": "/img/restoran-menu-salata.webp"
+              },
+              {
+                "name": {
+                  "tr": "Közlenmiş patlıcan ezmesi",
+                  "en": "Smoked aubergine dip",
+                  "ar": "متبل الباذنجان المدخن"
+                },
+                "desc": {
+                  "tr": "Yoğurt ve sarımsak ile.",
+                  "en": "With yoghurt and garlic.",
+                  "ar": "مع الزبادي والثوم."
+                },
+                "price": 115,
+                "allergens": [
+                  "milk"
+                ],
+                "tags": [
+                  "vegetarian"
+                ]
+              },
+              {
+                "name": {
+                  "tr": "Mercimek çorbası",
+                  "en": "Lentil soup",
+                  "ar": "شوربة العدس"
+                },
+                "desc": {
+                  "tr": "Kırmızı mercimek, havuç, limon.",
+                  "en": "Red lentils, carrot and lemon.",
+                  "ar": "عدس أحمر وجزر وليمون."
+                },
+                "price": 95,
+                "allergens": [
+                  "celery"
+                ],
+                "tags": [
+                  "vegan"
+                ],
+                "img": "/img/restoran-menu-corba.webp"
+              },
+              {
+                "name": {
+                  "tr": "Humus",
+                  "en": "Hummus",
+                  "ar": "حمص"
+                },
+                "desc": {
+                  "tr": "Nohut ezmesi, zeytinyağı, pul biber.",
+                  "en": "Chickpea purée with olive oil and chili flakes.",
+                  "ar": "هريس الحمص مع زيت الزيتون ورقائق الفلفل."
+                },
+                "price": 120,
+                "allergens": [
+                  "sesame"
+                ],
+                "tags": [
+                  "vegan"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ana",
+            "name": {
+              "tr": "Ana tabaklar",
+              "en": "Main plates",
+              "ar": "الأطباق الرئيسية"
+            },
+            "items": [
+              {
+                "name": {
+                  "tr": "Fırın sebze güveç",
+                  "en": "Baked vegetable casserole",
+                  "ar": "طاجن الخضار في الفرن"
+                },
+                "desc": {
+                  "tr": "Patlıcan, kabak, biber; kekik ile fırınlanır.",
+                  "en": "Aubergine, courgette and pepper baked with thyme.",
+                  "ar": "باذنجان وكوسا وفلفل مخبوزة مع الزعتر."
+                },
+                "price": 220,
+                "allergens": [],
+                "tags": [
+                  "vegan",
+                  "chef"
+                ]
+              },
+              {
+                "name": {
+                  "tr": "Kuzu incik",
+                  "en": "Lamb shank",
+                  "ar": "موزات الضأن"
+                },
+                "desc": {
+                  "tr": "Ağır ateşte, bulgur pilavı ile.",
+                  "en": "Slow-cooked, with bulgur pilaf.",
+                  "ar": "مطهوة على نار هادئة مع البرغل."
+                },
+                "price": 380,
+                "allergens": [
+                  "gluten"
+                ],
+                "tags": [
+                  "chef"
+                ],
+                "img": "/img/restoran-menu-kebap.webp"
+              },
+              {
+                "name": {
+                  "tr": "İnce lahmacun",
+                  "en": "Thin lahmacun",
+                  "ar": "لحم بعجين رقيق"
+                },
+                "desc": {
+                  "tr": "Maydanoz, limon ve soğan ile.",
+                  "en": "Served with parsley, lemon and onion.",
+                  "ar": "يُقدَّم مع البقدونس والليمون والبصل."
+                },
+                "price": 150,
+                "allergens": [
+                  "gluten"
+                ],
+                "tags": [],
+                "img": "/img/restoran-menu-lahmacun.webp"
+              },
+              {
+                "name": {
+                  "tr": "Tavuk şiş",
+                  "en": "Chicken skewer",
+                  "ar": "شيش طاووق"
+                },
+                "desc": {
+                  "tr": "Yoğurtlu marinasyon, mevsim sebzesi ile.",
+                  "en": "Yoghurt marinade, with seasonal vegetables.",
+                  "ar": "متبَّل بالزبادي مع خضار الموسم."
+                },
+                "price": 250,
+                "allergens": [
+                  "milk"
+                ],
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": "tatli",
+            "name": {
+              "tr": "Tatlılar",
+              "en": "Desserts",
+              "ar": "الحلويات"
+            },
+            "items": [
+              {
+                "name": {
+                  "tr": "Fıstıklı baklava",
+                  "en": "Pistachio baklava",
+                  "ar": "بقلاوة بالفستق"
+                },
+                "desc": {
+                  "tr": "Antep fıstığı ve tereyağı; dört dilim.",
+                  "en": "Pistachio and butter; four pieces.",
+                  "ar": "بالفستق الحلبي والزبدة؛ أربع قطع."
+                },
+                "price": 190,
+                "allergens": [
+                  "gluten",
+                  "milk",
+                  "nuts"
+                ],
+                "tags": [
+                  "chef"
+                ],
+                "img": "/img/restoran-menu-baklava.webp"
+              },
+              {
+                "name": {
+                  "tr": "Künefe",
+                  "en": "Kunefe",
+                  "ar": "كنافة"
+                },
+                "desc": {
+                  "tr": "Sıcak servis, fıstık ile.",
+                  "en": "Served hot, with pistachio.",
+                  "ar": "تُقدَّم ساخنة مع الفستق."
+                },
+                "price": 170,
+                "allergens": [
+                  "gluten",
+                  "milk",
+                  "nuts"
+                ],
+                "tags": [],
+                "img": "/img/restoran-menu-tatli.webp"
+              },
+              {
+                "name": {
+                  "tr": "Zeytinyağlı kek",
+                  "en": "Olive oil cake",
+                  "ar": "كعكة زيت الزيتون"
+                },
+                "desc": {
+                  "tr": "Portakal kabuğu ve badem ile.",
+                  "en": "With orange zest and almonds.",
+                  "ar": "مع قشر البرتقال واللوز."
+                },
+                "price": 120,
+                "allergens": [
+                  "gluten",
+                  "eggs",
+                  "nuts"
+                ],
+                "tags": [
+                  "vegetarian"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "icecek",
+            "name": {
+              "tr": "İçecekler",
+              "en": "Drinks",
+              "ar": "المشروبات"
+            },
+            "items": [
+              {
+                "name": {
+                  "tr": "Ev limonatası",
+                  "en": "House lemonade",
+                  "ar": "ليموناضة البيت"
+                },
+                "desc": {
+                  "tr": "Nane ve taze limon.",
+                  "en": "Mint and fresh lemon.",
+                  "ar": "نعناع وليمون طازج."
+                },
+                "price": 60,
+                "allergens": [],
+                "tags": [
+                  "vegan"
+                ]
+              },
+              {
+                "name": {
+                  "tr": "Ayran",
+                  "en": "Ayran",
+                  "ar": "عيران"
+                },
+                "desc": {
+                  "tr": "Ev yapımı, köpüklü.",
+                  "en": "Homemade and frothy.",
+                  "ar": "منزلي ومزبد."
+                },
+                "price": 40,
+                "allergens": [
+                  "milk"
+                ],
+                "tags": [
+                  "vegetarian"
+                ]
+              },
+              {
+                "name": {
+                  "tr": "Türk kahvesi",
+                  "en": "Turkish coffee",
+                  "ar": "قهوة تركية"
+                },
+                "desc": {
+                  "tr": "Orta şekerli; lokum ile.",
+                  "en": "Medium sweet, with Turkish delight.",
+                  "ar": "وسط السكر؛ مع راحة الحلقوم."
+                },
+                "price": 70,
+                "allergens": [],
+                "tags": []
+              }
+            ]
+          }
+        ],
+        "ui": {
+          "tabsLabel": {
+            "tr": "Menü kategorileri",
+            "en": "Menu categories",
+            "ar": "فئات القائمة"
+          },
+          "allTab": {
+            "tr": "Tümü",
+            "en": "All",
+            "ar": "الكل"
+          },
+          "toolsLabel": {
+            "tr": "Menü araçları",
+            "en": "Menu tools",
+            "ar": "أدوات القائمة"
+          },
+          "searchLabel": {
+            "tr": "Menüde ara",
+            "en": "Search the menu",
+            "ar": "ابحث في القائمة"
+          },
+          "searchHint": {
+            "tr": "Ürün adı ya da içerik yazın",
+            "en": "Type a dish name or ingredient",
+            "ar": "اكتب اسم الطبق أو أحد مكوناته"
+          },
+          "searchHint_fiyat": {
+            "tr": "Hizmet adı yazın",
+            "en": "Type a service name",
+            "ar": "اكتب اسم الخدمة"
+          },
+          "filterTitle": {
+            "tr": "Alerjene göre süz",
+            "en": "Filter by allergen",
+            "ar": "التصفية حسب مسببات الحساسية"
+          },
+          "filterHint": {
+            "tr": "İşaretlediğiniz alerjeni içermeyen ürünler gösterilir.",
+            "en": "Only items without the allergens you select are shown.",
+            "ar": "تُعرَض فقط الأطباق الخالية من مسببات الحساسية التي تحددها."
+          },
+          "filterTagsTitle": {
+            "tr": "Beslenme tercihi",
+            "en": "Dietary preference",
+            "ar": "التفضيل الغذائي"
+          },
+          "without": {
+            "tr": "{name} yok",
+            "en": "No {name}",
+            "ar": "بدون {name}"
+          },
+          "clearFilters": {
+            "tr": "Filtreleri temizle",
+            "en": "Clear filters",
+            "ar": "مسح عوامل التصفية"
+          },
+          "count_menu": {
+            "tr": {
+              "one": "{n} ürün gösteriliyor",
+              "other": "{n} ürün gösteriliyor"
+            },
+            "en": {
+              "one": "Showing {n} item",
+              "other": "Showing {n} items"
+            },
+            "ar": {
+              "zero": "لا توجد أطباق",
+              "one": "طبق واحد",
+              "two": "طبقان",
+              "few": "{n} أطباق",
+              "many": "{n} طبقًا",
+              "other": "{n} طبق"
+            }
+          },
+          "count_fiyat": {
+            "tr": {
+              "one": "{n} hizmet gösteriliyor",
+              "other": "{n} hizmet gösteriliyor"
+            },
+            "en": {
+              "one": "Showing {n} service",
+              "other": "Showing {n} services"
+            },
+            "ar": {
+              "zero": "لا توجد خدمات",
+              "one": "خدمة واحدة",
+              "two": "خدمتان",
+              "few": "{n} خدمات",
+              "many": "{n} خدمةً",
+              "other": "{n} خدمة"
+            }
+          },
+          "noResults": {
+            "tr": "Seçtiğiniz ölçütlere uygun ürün bulunamadı.",
+            "en": "No items match your selection.",
+            "ar": "لا توجد عناصر تطابق اختيارك."
+          },
+          "printBtn": {
+            "tr": "Yazdır / PDF",
+            "en": "Print / PDF",
+            "ar": "طباعة / PDF"
+          },
+          "contains": {
+            "tr": "İçerir:",
+            "en": "Contains:",
+            "ar": "يحتوي على:"
+          },
+          "allergensLabel": {
+            "tr": "Alerjenler",
+            "en": "Allergens",
+            "ar": "مسببات الحساسية"
+          },
+          "tagsLabel": {
+            "tr": "Etiketler",
+            "en": "Tags",
+            "ar": "الوسوم"
+          },
+          "from": {
+            "tr": "Başlangıç",
+            "en": "From",
+            "ar": "ابتداءً من"
+          },
+          "minUnit": {
+            "tr": "{n} dk",
+            "en": "{n} min",
+            "ar": "{n} دقيقة"
+          },
+          "legendTitle": {
+            "tr": "Alerjen rehberi",
+            "en": "Allergen guide",
+            "ar": "دليل مسببات الحساسية"
+          },
+          "legendCaption": {
+            "tr": "Menüde kullanılan alerjen simgeleri ve anlamları",
+            "en": "Allergen symbols used on this menu and what they mean",
+            "ar": "رموز مسببات الحساسية المستخدمة في القائمة ومعانيها"
+          },
+          "legendCode": {
+            "tr": "Simge",
+            "en": "Symbol",
+            "ar": "الرمز"
+          },
+          "legendName": {
+            "tr": "Alerjen",
+            "en": "Allergen",
+            "ar": "مسبب الحساسية"
+          }
+        },
+        "radius": "0px"
+      },
+      "id": "dmjbao",
+      "path": "menu-liste",
+      "local": "body",
+      "data": [],
+      "index": 19
+    },
+    {
+      "name": "Randevu / Rezervasyon Formu",
+      "description": "Statik randevu ve rezervasyon sihirbazı (30 Eki 2026): hizmet → uzman → tarih → saat → bilgi → onay; masa kipi (kişi sayısı + bölüm) ve gösterim kipi. Sunucusuz: gönderim WhatsApp hazır mesaj, mailto veya .ics dosyası. Kendi takvimi (Pazartesi/Cumartesi hafta başı, kapalı günler, mola, bekleme günü), üç dil (tr/en/ar, RTL), KVKK onayı, demo kipinde tarayıcıda 'randevularım' listesi.",
+      "version": "1.0.0",
+      "icon": "event_available",
+      "category": "randevu",
+      "tags": [
+        "randevu",
+        "rezervasyon",
+        "takvim",
+        "form",
+        "whatsapp",
+        "ics"
+      ],
+      "desing": {
+        "max": "960px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "errcolor": "color-mix(in srgb, #c81e1e 72%, var(--mx-site-text, #1b1b1b))",
+        "mode": "masa",
+        "submit": "whatsapp",
+        "demo": true,
+        "weekStart": "auto",
+        "leadDays": 1,
+        "maxDays": 60,
+        "maxPartySize": 8,
+        "masaDuration": 90,
+        "requireEmail": false,
+        "phone": "+90 342 000 00 02",
+        "email": "sofra@zeytindali.example",
+        "location": {
+          "tr": "Bağlar Yolu No: 3, Nizip, Gaziantep (kurgusal adres)",
+          "en": "3 Baglar Road, Nizip, Gaziantep (fictional address)",
+          "ar": "طريق باغلار رقم 3، نيزيب، غازي عنتاب (عنوان افتراضي)"
+        },
+        "badge": {
+          "tr": "Rezervasyon",
+          "en": "Reservation",
+          "ar": "الحجز"
+        },
+        "title": {
+          "tr": "Bahçede ya da salonda masanız",
+          "en": "Your table in the garden or indoors",
+          "ar": "طاولتك في الحديقة أو الصالة"
+        },
+        "description": {
+          "tr": "Tarih, saat ve kişi sayısını seçin; talebiniz demo olarak tarayıcınızda oluşturulur.",
+          "en": "Choose a date, time and party size; your request is created in your browser as a demo.",
+          "ar": "اختر التاريخ والوقت وعدد الأشخاص؛ يُنشأ طلبك كعرض تجريبي في متصفحك."
+        },
+        "noscript": {
+          "tr": "Randevu formunu kullanmak için tarayıcınızda JavaScript açık olmalıdır. Bunun yerine bizi arayabilirsiniz.",
+          "en": "JavaScript must be enabled in your browser to use the booking form. You can call us instead.",
+          "ar": "يجب تفعيل JavaScript في المتصفح لاستخدام نموذج الحجز. يمكنك الاتصال بنا بدلًا من ذلك."
+        },
+        "services": [
+          {
+            "id": "s1",
+            "name": {
+              "tr": "Tanışma görüşmesi",
+              "en": "Introductory meeting",
+              "ar": "لقاء تعريفي"
+            },
+            "duration": 30
+          },
+          {
+            "id": "s2",
+            "name": {
+              "tr": "Danışmanlık seansı",
+              "en": "Consultation session",
+              "ar": "جلسة استشارية"
+            },
+            "duration": 60
+          },
+          {
+            "id": "s3",
+            "name": {
+              "tr": "Yerinde inceleme",
+              "en": "On-site visit",
+              "ar": "زيارة ميدانية"
+            },
+            "duration": 90,
+            "price": 1500
+          }
+        ],
+        "staff": [
+          {
+            "id": "p1",
+            "name": {
+              "tr": "Elif Yıldız",
+              "en": "Elif Yildiz",
+              "ar": "إليف يلدز"
+            },
+            "role": {
+              "tr": "Kıdemli danışman",
+              "en": "Senior advisor",
+              "ar": "مستشارة أولى"
+            },
+            "services": [
+              "s1",
+              "s2",
+              "s3"
+            ]
+          },
+          {
+            "id": "p2",
+            "name": {
+              "tr": "Murat Kaya",
+              "en": "Murat Kaya",
+              "ar": "مراد قايا"
+            },
+            "role": {
+              "tr": "Danışman",
+              "en": "Advisor",
+              "ar": "مستشار"
+            },
+            "services": [
+              "s1",
+              "s2"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "id": "bahce",
+            "name": {
+              "tr": "Zeytin bahçesi",
+              "en": "Olive garden",
+              "ar": "حديقة الزيتون"
+            }
+          },
+          {
+            "id": "salon",
+            "name": {
+              "tr": "Salon",
+              "en": "Dining room",
+              "ar": "الصالة"
+            }
+          }
+        ],
+        "hours": {
+          "days": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "12:00",
+          "end": "21:30",
+          "slot": 30,
+          "breaks": []
+        },
+        "closed": [
+          "2026-12-25",
+          "2026-12-31",
+          "2027-01-01"
+        ],
+        "kvkk": {
+          "text": {
+            "tr": "Kişisel verilerimin bu rezervasyon talebi için işlenmesine ilişkin aydınlatma metnini okudum.",
+            "en": "I have read the privacy notice on how my personal data is processed for this reservation request.",
+            "ar": "قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية لطلب الحجز هذا."
+          },
+          "href": "kisiselveriler"
+        },
+        "successText": {
+          "tr": "Talebiniz için teşekkür ederiz. Kaydınız ekibimizin onayından sonra kesinleşir.",
+          "en": "Thank you for your request. Your booking is confirmed once our team approves it.",
+          "ar": "شكرًا لك على طلبك. يصبح حجزك مؤكدًا بعد موافقة فريقنا."
+        },
+        "ui": {
+          "stepsLabel": {
+            "tr": "Adımlar",
+            "en": "Steps",
+            "ar": "الخطوات"
+          },
+          "stepOf": {
+            "tr": "Adım {n} / {m}",
+            "en": "Step {n} of {m}",
+            "ar": "الخطوة {n} من {m}"
+          },
+          "s_service": {
+            "tr": "Hizmet",
+            "en": "Service",
+            "ar": "الخدمة"
+          },
+          "s_staff": {
+            "tr": "Uzman",
+            "en": "Specialist",
+            "ar": "المختص"
+          },
+          "s_party": {
+            "tr": "Kişi",
+            "en": "Guests",
+            "ar": "الضيوف"
+          },
+          "s_date": {
+            "tr": "Tarih",
+            "en": "Date",
+            "ar": "التاريخ"
+          },
+          "s_time": {
+            "tr": "Saat",
+            "en": "Time",
+            "ar": "الوقت"
+          },
+          "s_info": {
+            "tr": "Bilgiler",
+            "en": "Details",
+            "ar": "البيانات"
+          },
+          "s_confirm": {
+            "tr": "Onay",
+            "en": "Confirm",
+            "ar": "التأكيد"
+          },
+          "back": {
+            "tr": "Geri",
+            "en": "Back",
+            "ar": "رجوع"
+          },
+          "next": {
+            "tr": "Devam",
+            "en": "Continue",
+            "ar": "متابعة"
+          },
+          "reqNote": {
+            "tr": "* ile işaretli alanlar zorunludur.",
+            "en": "Fields marked * are required.",
+            "ar": "الحقول المميزة بعلامة * إلزامية."
+          },
+          "t_service": {
+            "tr": "Hizmet seçin",
+            "en": "Choose a service",
+            "ar": "اختر الخدمة"
+          },
+          "minUnit": {
+            "tr": "{n} dk",
+            "en": "{n} min",
+            "ar": "{n} دقيقة"
+          },
+          "t_staff": {
+            "tr": "Uzman seçin",
+            "en": "Choose a specialist",
+            "ar": "اختر المختص"
+          },
+          "anyStaff": {
+            "tr": "Fark etmez",
+            "en": "No preference",
+            "ar": "لا تفضيل"
+          },
+          "anyStaffHint": {
+            "tr": "Uygun olan uzman atanır.",
+            "en": "The first available specialist is assigned.",
+            "ar": "يُسنَد الموعد إلى أول مختص متاح."
+          },
+          "t_party": {
+            "tr": "Kaç kişisiniz?",
+            "en": "How many guests?",
+            "ar": "كم عدد الضيوف؟"
+          },
+          "partyMinus": {
+            "tr": "Kişi sayısını azalt",
+            "en": "Decrease guests",
+            "ar": "تقليل عدد الضيوف"
+          },
+          "partyPlus": {
+            "tr": "Kişi sayısını artır",
+            "en": "Increase guests",
+            "ar": "زيادة عدد الضيوف"
+          },
+          "partyCount": {
+            "tr": {
+              "one": "{n} kişi",
+              "other": "{n} kişi"
+            },
+            "en": {
+              "one": "{n} guest",
+              "other": "{n} guests"
+            },
+            "ar": {
+              "zero": "{n} ضيف",
+              "one": "ضيف واحد",
+              "two": "ضيفان",
+              "few": "{n} ضيوف",
+              "many": "{n} ضيفًا",
+              "other": "{n} ضيف"
+            }
+          },
+          "groupHint": {
+            "tr": "{n} kişiden büyük gruplar için lütfen bizi arayın.",
+            "en": "For groups larger than {n}, please call us.",
+            "ar": "للمجموعات التي يزيد عددها عن {n}، يُرجى الاتصال بنا."
+          },
+          "t_section": {
+            "tr": "Bölüm tercihi",
+            "en": "Seating preference",
+            "ar": "تفضيل الجلسة"
+          },
+          "anySection": {
+            "tr": "Fark etmez",
+            "en": "No preference",
+            "ar": "لا تفضيل"
+          },
+          "t_date": {
+            "tr": "Tarih seçin",
+            "en": "Choose a date",
+            "ar": "اختر التاريخ"
+          },
+          "prevMonth": {
+            "tr": "Önceki ay",
+            "en": "Previous month",
+            "ar": "الشهر السابق"
+          },
+          "nextMonth": {
+            "tr": "Sonraki ay",
+            "en": "Next month",
+            "ar": "الشهر التالي"
+          },
+          "calHint": {
+            "tr": "Gezinmek için ok tuşlarını, seçmek için Enter tuşunu kullanın. Kapalı günler seçilemez.",
+            "en": "Use the arrow keys to move and Enter to select. Unavailable days cannot be chosen.",
+            "ar": "استخدم مفاتيح الأسهم للتنقل ومفتاح Enter للاختيار. لا يمكن اختيار الأيام غير المتاحة."
+          },
+          "dayUnavailable": {
+            "tr": "uygun değil",
+            "en": "unavailable",
+            "ar": "غير متاح"
+          },
+          "selectedDate": {
+            "tr": "Seçilen tarih: {d}",
+            "en": "Selected date: {d}",
+            "ar": "التاريخ المختار: {d}"
+          },
+          "t_time": {
+            "tr": "Saat seçin",
+            "en": "Choose a time",
+            "ar": "اختر الوقت"
+          },
+          "timesFor": {
+            "tr": "{d} için uygun saatler",
+            "en": "Available times for {d}",
+            "ar": "الأوقات المتاحة ليوم {d}"
+          },
+          "p_morning": {
+            "tr": "Sabah",
+            "en": "Morning",
+            "ar": "الصباح"
+          },
+          "p_afternoon": {
+            "tr": "Öğleden sonra",
+            "en": "Afternoon",
+            "ar": "بعد الظهر"
+          },
+          "p_evening": {
+            "tr": "Akşam",
+            "en": "Evening",
+            "ar": "المساء"
+          },
+          "slotTaken": {
+            "tr": "dolu",
+            "en": "booked",
+            "ar": "محجوز"
+          },
+          "noSlots": {
+            "tr": "Bu tarihte uygun saat kalmadı. Lütfen başka bir gün seçin.",
+            "en": "No times are left on this date. Please choose another day.",
+            "ar": "لا توجد أوقات متاحة في هذا اليوم. يُرجى اختيار يوم آخر."
+          },
+          "t_info": {
+            "tr": "İletişim bilgileriniz",
+            "en": "Your contact details",
+            "ar": "بيانات التواصل"
+          },
+          "fName": {
+            "tr": "Ad soyad",
+            "en": "Full name",
+            "ar": "الاسم الكامل"
+          },
+          "fPhone": {
+            "tr": "Telefon",
+            "en": "Phone",
+            "ar": "رقم الهاتف"
+          },
+          "fEmail": {
+            "tr": "E-posta",
+            "en": "E-mail",
+            "ar": "البريد الإلكتروني"
+          },
+          "fEmailOpt": {
+            "tr": "E-posta (isteğe bağlı)",
+            "en": "E-mail (optional)",
+            "ar": "البريد الإلكتروني (اختياري)"
+          },
+          "fNote": {
+            "tr": "Not (isteğe bağlı)",
+            "en": "Note (optional)",
+            "ar": "ملاحظة (اختياري)"
+          },
+          "eService": {
+            "tr": "Lütfen bir hizmet seçin.",
+            "en": "Please choose a service.",
+            "ar": "يُرجى اختيار خدمة."
+          },
+          "eDate": {
+            "tr": "Lütfen uygun bir tarih seçin.",
+            "en": "Please choose an available date.",
+            "ar": "يُرجى اختيار تاريخ متاح."
+          },
+          "eTime": {
+            "tr": "Lütfen bir saat seçin.",
+            "en": "Please choose a time.",
+            "ar": "يُرجى اختيار وقت."
+          },
+          "eName": {
+            "tr": "Lütfen adınızı ve soyadınızı yazın.",
+            "en": "Please enter your full name.",
+            "ar": "يُرجى كتابة اسمك الكامل."
+          },
+          "ePhone": {
+            "tr": "Geçerli bir telefon numarası yazın.",
+            "en": "Please enter a valid phone number.",
+            "ar": "يُرجى كتابة رقم هاتف صحيح."
+          },
+          "eEmail": {
+            "tr": "Geçerli bir e-posta adresi yazın.",
+            "en": "Please enter a valid e-mail address.",
+            "ar": "يُرجى كتابة بريد إلكتروني صحيح."
+          },
+          "eKvkk": {
+            "tr": "Devam etmek için aydınlatma metnini onaylamanız gerekir.",
+            "en": "You need to accept the privacy notice to continue.",
+            "ar": "يجب الموافقة على إشعار الخصوصية للمتابعة."
+          },
+          "t_confirm": {
+            "tr": "Özet ve onay",
+            "en": "Review and confirm",
+            "ar": "المراجعة والتأكيد"
+          },
+          "sum_service": {
+            "tr": "Hizmet",
+            "en": "Service",
+            "ar": "الخدمة"
+          },
+          "sum_staff": {
+            "tr": "Uzman",
+            "en": "Specialist",
+            "ar": "المختص"
+          },
+          "sum_party": {
+            "tr": "Kişi sayısı",
+            "en": "Guests",
+            "ar": "عدد الضيوف"
+          },
+          "sum_section": {
+            "tr": "Bölüm",
+            "en": "Seating",
+            "ar": "الجلسة"
+          },
+          "sum_date": {
+            "tr": "Tarih",
+            "en": "Date",
+            "ar": "التاريخ"
+          },
+          "sum_time": {
+            "tr": "Saat",
+            "en": "Time",
+            "ar": "الوقت"
+          },
+          "sum_name": {
+            "tr": "Ad soyad",
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "sum_phone": {
+            "tr": "Telefon",
+            "en": "Phone",
+            "ar": "الهاتف"
+          },
+          "sum_email": {
+            "tr": "E-posta",
+            "en": "E-mail",
+            "ar": "البريد الإلكتروني"
+          },
+          "sum_note": {
+            "tr": "Not",
+            "en": "Note",
+            "ar": "ملاحظة"
+          },
+          "kvkkLink": {
+            "tr": "Aydınlatma metni",
+            "en": "Privacy notice",
+            "ar": "إشعار الخصوصية"
+          },
+          "submit_whatsapp": {
+            "tr": "WhatsApp ile gönder",
+            "en": "Send via WhatsApp",
+            "ar": "إرسال عبر واتساب"
+          },
+          "submit_mailto": {
+            "tr": "E-posta ile gönder",
+            "en": "Send by e-mail",
+            "ar": "إرسال بالبريد الإلكتروني"
+          },
+          "submit_ics": {
+            "tr": "Takvim dosyasını indir",
+            "en": "Download calendar file",
+            "ar": "تنزيل ملف التقويم"
+          },
+          "showcaseNote": {
+            "tr": "Bu bölüm bir gösterimdir: girdiğiniz bilgiler hiçbir yere gönderilmez. Gerçek talep için bizi arayabilirsiniz.",
+            "en": "This is a showcase: nothing you enter is sent anywhere. To make a real request, please call us.",
+            "ar": "هذا القسم للعرض فقط: لا تُرسَل أي بيانات تدخلها. لتقديم طلب فعلي يُرجى الاتصال بنا."
+          },
+          "callUs": {
+            "tr": "Bizi arayın",
+            "en": "Call us",
+            "ar": "اتصل بنا"
+          },
+          "restart": {
+            "tr": "Başa dön",
+            "en": "Start over",
+            "ar": "العودة إلى البداية"
+          },
+          "doneTitle_randevu": {
+            "tr": "Randevu talebiniz hazır",
+            "en": "Your appointment request is ready",
+            "ar": "طلب موعدك جاهز"
+          },
+          "doneTitle_masa": {
+            "tr": "Rezervasyon talebiniz hazır",
+            "en": "Your reservation request is ready",
+            "ar": "طلب حجزك جاهز"
+          },
+          "doneHint_whatsapp": {
+            "tr": "Mesaj WhatsApp'ta hazır olarak açıldı. Talebin bize ulaşması için mesajı göndermeyi unutmayın.",
+            "en": "The message opened in WhatsApp, ready to send. Remember to send it so your request reaches us.",
+            "ar": "فُتحت الرسالة جاهزة في واتساب. لا تنسَ إرسالها كي يصلنا طلبك."
+          },
+          "doneHint_mailto": {
+            "tr": "E-posta uygulamanızda hazır bir taslak açıldı. Göndermeyi unutmayın.",
+            "en": "A draft e-mail opened in your mail app. Remember to send it.",
+            "ar": "فُتحت مسودة رسالة في تطبيق البريد. لا تنسَ إرسالها."
+          },
+          "doneHint_ics": {
+            "tr": "Takvim dosyası indirildi. Kaydı takvim uygulamanıza ekleyebilirsiniz.",
+            "en": "The calendar file was downloaded. You can add the booking to your calendar app.",
+            "ar": "تم تنزيل ملف التقويم. يمكنك إضافة الحجز إلى تطبيق التقويم."
+          },
+          "reopen": {
+            "tr": "Mesajı yeniden aç",
+            "en": "Open the message again",
+            "ar": "فتح الرسالة مرة أخرى"
+          },
+          "reopen_ics": {
+            "tr": "Dosyayı yeniden indir",
+            "en": "Download again",
+            "ar": "إعادة التنزيل"
+          },
+          "addCal": {
+            "tr": "Takvime ekle",
+            "en": "Add to calendar",
+            "ar": "إضافة إلى التقويم"
+          },
+          "newBooking_randevu": {
+            "tr": "Yeni randevu",
+            "en": "New appointment",
+            "ar": "موعد جديد"
+          },
+          "newBooking_masa": {
+            "tr": "Yeni rezervasyon",
+            "en": "New reservation",
+            "ar": "حجز جديد"
+          },
+          "demoNote": {
+            "tr": "Demo: bilgileriniz yalnızca bu tarayıcıda saklanır, hiçbir sunucuya gönderilmez.",
+            "en": "Demo: your details stay in this browser only and are never sent to a server.",
+            "ar": "عرض تجريبي: تبقى بياناتك في هذا المتصفح فقط ولا تُرسَل إلى أي خادم."
+          },
+          "myTitle_randevu": {
+            "tr": "Randevularım",
+            "en": "My appointments",
+            "ar": "مواعيدي"
+          },
+          "myTitle_masa": {
+            "tr": "Rezervasyonlarım",
+            "en": "My reservations",
+            "ar": "حجوزاتي"
+          },
+          "cancel": {
+            "tr": "İptal et",
+            "en": "Cancel",
+            "ar": "إلغاء"
+          },
+          "cancelAria": {
+            "tr": "{d} saat {t} kaydını iptal et",
+            "en": "Cancel the booking on {d} at {t}",
+            "ar": "إلغاء الحجز بتاريخ {d} الساعة {t}"
+          },
+          "cancelled": {
+            "tr": "Kayıt iptal edildi.",
+            "en": "Booking cancelled.",
+            "ar": "تم إلغاء الحجز."
+          },
+          "svcFallback_randevu": {
+            "tr": "Randevu",
+            "en": "Appointment",
+            "ar": "موعد"
+          },
+          "msg_randevu_head": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için {service} randevusu almak istiyorum.",
+            "en": "Hello, I would like to book {service} on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز موعد ({service}) بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_randevu_head_nosvc": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için randevu almak istiyorum.",
+            "en": "Hello, I would like to book an appointment on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز موعد بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_masa_head": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için {party} masa rezervasyonu yapmak istiyorum.",
+            "en": "Hello, I would like to reserve a table for {party} on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز طاولة لـ {party} بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_staff": {
+            "tr": "Tercih edilen uzman: {staff}",
+            "en": "Preferred specialist: {staff}",
+            "ar": "المختص المفضل: {staff}"
+          },
+          "msg_section": {
+            "tr": "Bölüm: {section}",
+            "en": "Seating: {section}",
+            "ar": "الجلسة: {section}"
+          },
+          "msg_phone": {
+            "tr": "Telefon: {phone}",
+            "en": "Phone: {phone}",
+            "ar": "الهاتف: {phone}"
+          },
+          "msg_email": {
+            "tr": "E-posta: {email}",
+            "en": "E-mail: {email}",
+            "ar": "البريد الإلكتروني: {email}"
+          },
+          "msg_note": {
+            "tr": "Not: {note}",
+            "en": "Note: {note}",
+            "ar": "ملاحظة: {note}"
+          },
+          "mailSubject_randevu": {
+            "tr": "Randevu talebi – {name}",
+            "en": "Appointment request – {name}",
+            "ar": "طلب موعد – {name}"
+          },
+          "mailSubject_masa": {
+            "tr": "Rezervasyon talebi – {name}",
+            "en": "Reservation request – {name}",
+            "ar": "طلب حجز – {name}"
+          },
+          "icsSummary_randevu": {
+            "tr": "Randevu: {service}",
+            "en": "Appointment: {service}",
+            "ar": "موعد: {service}"
+          },
+          "icsSummary_masa": {
+            "tr": "Masa rezervasyonu – {party}",
+            "en": "Table reservation – {party}",
+            "ar": "حجز طاولة – {party}"
+          }
+        }
+      },
+      "id": "b0a81p",
+      "path": "randevu-formu",
+      "local": "body",
+      "data": [],
+      "index": 20
+    },
+    {
+      "name": "Galeri Masonry (Filtre + Lightbox)",
+      "description": "Masonry (sütun) ya da sabit oranlı ızgara galeri: kategori çipleriyle filtre (?cat= URL durumu, aria-pressed), lightbox (klavye, filtrelenmişte yalnız görünenler gezilir), lazy yükleme (width/height ile CLS yok), görselsiz öğede nötr yer tutucu. gap:0 ile kenarsız ızgara, hover başlık. Öğeler data[] içinde {img, thumb?, title{tr,en,ar}, cat, w, h, alt{tr,en,ar}}; kategoriler desing.cats[]. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "photo_library",
+      "category": "galeri",
+      "tags": [
+        "galeri",
+        "masonry",
+        "filtre",
+        "lightbox",
+        "portfolyo",
+        "gallery",
+        "ar"
+      ],
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 48%, var(--mx-site-bg, #ffffff))",
+        "gap": "28px",
+        "radius": "0px",
+        "columns": {
+          "d": 2,
+          "t": 2,
+          "m": 1
+        },
+        "ratio": "4:3",
+        "captions": "hover",
+        "filter": true,
+        "lightbox": true,
+        "lazy": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Galeri",
+          "en": "Gallery",
+          "ar": "المعرض"
+        },
+        "description": {
+          "tr": "Bahçe, salon, mutfak ve tabaklar.",
+          "en": "Garden, dining room, kitchen and plates.",
+          "ar": "الحديقة والصالة والمطبخ والأطباق."
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد صور"
+          },
+          "one": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photo",
+            "ar": "صورة واحدة"
+          },
+          "two": {
+            "ar": "صورتان"
+          },
+          "few": {
+            "ar": "{n} صور"
+          },
+          "many": {
+            "ar": "{n} صورة"
+          },
+          "other": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photos",
+            "ar": "{n} صورة"
+          }
+        },
+        "emptyText": {
+          "tr": "Henüz gösterilecek görsel yok.",
+          "en": "There are no images to show yet.",
+          "ar": "لا توجد صور لعرضها بعد."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "cats": [
+          {
+            "id": "bahce",
+            "name": {
+              "tr": "Bahçe",
+              "en": "Garden",
+              "ar": "الحديقة"
+            }
+          },
+          {
+            "id": "salon",
+            "name": {
+              "tr": "Salon",
+              "en": "Dining room",
+              "ar": "الصالة"
+            }
+          },
+          {
+            "id": "mutfak",
+            "name": {
+              "tr": "Mutfak",
+              "en": "Kitchen",
+              "ar": "المطبخ"
+            }
+          },
+          {
+            "id": "tabak",
+            "name": {
+              "tr": "Tabaklar",
+              "en": "Plates",
+              "ar": "الأطباق"
+            }
+          }
+        ]
+      },
+      "data": [
+        {
+          "img": "restoran-mekan-2.webp",
+          "cat": "bahce",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Zeytin bahçesi",
+            "en": "Olive garden",
+            "ar": "حديقة الزيتون"
+          },
+          "alt": {
+            "tr": "Akşam ışıklarıyla bahçe terası",
+            "en": "Garden terrace with evening lights",
+            "ar": "تراس الحديقة بأضواء المساء"
+          }
+        },
+        {
+          "img": "restoran-galeri-masa.webp",
+          "cat": "bahce",
+          "w": 600,
+          "h": 800,
+          "title": {
+            "tr": "Hazır masa",
+            "en": "A laid table",
+            "ar": "مائدة جاهزة"
+          },
+          "alt": {
+            "tr": "Keten peçeteli hazırlanmış masa",
+            "en": "A table laid with linen napkins",
+            "ar": "مائدة مجهزة بمناديل كتان"
+          }
+        },
+        {
+          "img": "restoran-mekan-1.webp",
+          "cat": "salon",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Salon",
+            "en": "Dining room",
+            "ar": "الصالة"
+          },
+          "alt": {
+            "tr": "Ahşap masalı, gün ışıklı salon",
+            "en": "Dining room with wooden tables and daylight",
+            "ar": "صالة بطاولات خشبية وضوء النهار"
+          }
+        },
+        {
+          "img": "restoran-mekan-3.webp",
+          "cat": "salon",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Açık mutfak",
+            "en": "Open kitchen",
+            "ar": "المطبخ المفتوح"
+          },
+          "alt": {
+            "tr": "Taş fırın ve tezgâh",
+            "en": "Stone oven and counter",
+            "ar": "فرن حجري وطاولة"
+          }
+        },
+        {
+          "img": "restoran-mutfak-sef.webp",
+          "cat": "mutfak",
+          "w": 600,
+          "h": 800,
+          "title": {
+            "tr": "Hamur",
+            "en": "Dough",
+            "ar": "العجين"
+          },
+          "alt": {
+            "tr": "Şefin elleri hamur yoğuruyor",
+            "en": "The chef’s hands kneading dough",
+            "ar": "يدا الشيف تعجنان العجين"
+          }
+        },
+        {
+          "img": "restoran-menu-salata.webp",
+          "cat": "tabak",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Mevsim yeşillikleri",
+            "en": "Seasonal greens",
+            "ar": "خضار الموسم"
+          },
+          "alt": {
+            "tr": "Yeşillik ve zeytinyağı",
+            "en": "Greens and olive oil",
+            "ar": "خضار ورقية وزيت زيتون"
+          }
+        },
+        {
+          "img": "restoran-menu-corba.webp",
+          "cat": "tabak",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Mercimek çorbası",
+            "en": "Lentil soup",
+            "ar": "شوربة العدس"
+          },
+          "alt": {
+            "tr": "Limonlu mercimek çorbası",
+            "en": "Lentil soup with lemon",
+            "ar": "شوربة عدس بالليمون"
+          }
+        },
+        {
+          "img": "restoran-menu-tatli.webp",
+          "cat": "tabak",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Künefe",
+            "en": "Kunefe",
+            "ar": "كنافة"
+          },
+          "alt": {
+            "tr": "Fıstıklı sıcak künefe",
+            "en": "Hot kunefe with pistachio",
+            "ar": "كنافة ساخنة بالفستق"
+          }
+        }
+      ],
+      "id": "o5s4xp",
+      "path": "galeri-masonry",
+      "local": "body",
+      "index": 21
+    },
+    {
+      "name": {
+        "tr": "Ekip 2 — Zengin kartlar",
+        "en": "Team 2 — Rich cards",
+        "ar": "الفريق 2 — بطاقات غنية"
+      },
+      "description": {
+        "tr": "Ekip kartları: fotoğraf (hover'da ikinci görsel ya da sosyal ikonlar belirir — desing.hover), ad, unvan, kısa bio; bölüm çipleriyle filtre (mx-filtre.js varsa onu, yoksa yerel filtre kullanır; ?dept= URL durumu); «tüm ekip» CTA. Üç varyant (desing.stil): kartli · yuvarlak (daire fotoğraf, ortalı) · yatay-liste (fotoğraf sol, bio sağ). data[] = {name, role{}, bio{}, img, img2, dept, social[]}. Üç dil, RTL, koyu mod token'larla.",
+        "en": "Team cards: photo (second image or social icons appear on hover — desing.hover), name, role, short bio; department chip filter (uses mx-filtre.js when available, otherwise a local filter; ?dept= URL state); «whole team» CTA. Three variants (desing.stil): kartli · yuvarlak (round photo, centred) · yatay-liste (photo left, bio right). data[] = {name, role{}, bio{}, img, img2, dept, social[]}. Three languages, RTL, dark mode via tokens.",
+        "ar": "بطاقات الفريق: صورة (تظهر صورة ثانية أو أيقونات التواصل عند التمرير)، الاسم، المسمّى، نبذة قصيرة؛ تصفية بشرائح الأقسام؛ زر «كل الفريق». ثلاثة أنماط: بطاقات · دائري · قائمة أفقية. ثلاث لغات، RTL، وضع داكن."
+      },
+      "version": "1.0.0",
+      "icon": "groups",
+      "category": "team",
+      "tags": [
+        "ekip",
+        "team",
+        "kadro",
+        "filtre",
+        "ar"
+      ],
+      "desing": {
+        "max": "1200px",
+        "stil": "yatay-liste",
+        "hover": "sosyal",
+        "filter": true,
+        "urlPrefix": "",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 70%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "radius": "0px",
+        "title": {
+          "tr": "Üreticilerimiz",
+          "en": "Our growers",
+          "ar": "منتجونا"
+        },
+        "description": {
+          "tr": "Menüdeki her ürünün geldiği yer (kurgusal örnekler).",
+          "en": "Where every item on the menu comes from (fictional examples).",
+          "ar": "من أين يأتي كل صنف في القائمة (أمثلة افتراضية)."
+        },
+        "filterLabel": {
+          "tr": "Bölüme göre filtrele",
+          "en": "Filter by department",
+          "ar": "التصفية حسب القسم"
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "ctaText": {
+          "tr": "Tüm ekibi görün",
+          "en": "Meet the whole team",
+          "ar": "تعرّف على كل الفريق"
+        },
+        "ctaHref": "",
+        "socialLabel": {
+          "tr": "{ad} — sosyal bağlantılar",
+          "en": "{ad} — social links",
+          "ar": "{ad} — روابط التواصل"
+        },
+        "emptyText": {
+          "tr": "Bu bölümde gösterilecek kişi yok.",
+          "en": "No people to show in this department.",
+          "ar": "لا يوجد أشخاص لعرضهم في هذا القسم."
+        },
+        "departments": [
+          {
+            "id": "bahce",
+            "name": {
+              "tr": "Bahçe",
+              "en": "Garden",
+              "ar": "الحديقة"
+            }
+          },
+          {
+            "id": "kiler",
+            "name": {
+              "tr": "Kiler",
+              "en": "Pantry",
+              "ar": "المخزن"
+            }
+          }
+        ]
+      },
+      "data": [
+        {
+          "name": "Hasan Çiftliği (kurgusal)",
+          "role": {
+            "tr": "Zeytin ve zeytinyağı",
+            "en": "Olives and olive oil",
+            "ar": "الزيتون وزيت الزيتون"
+          },
+          "bio": {
+            "tr": "Nizip’te 40 dönüm zeytinlik; soğuk sıkım yağ ve sofralık zeytin.",
+            "en": "Forty decares of olive groves in Nizip; cold-pressed oil and table olives.",
+            "ar": "أربعون دونمًا من بساتين الزيتون في نيزيب؛ زيت معصور على البارد وزيتون مائدة."
+          },
+          "img": "",
+          "dept": "bahce",
+          "social": []
+        },
+        {
+          "name": "Ayşe Bostanı (kurgusal)",
+          "role": {
+            "tr": "Mevsim sebzesi",
+            "en": "Seasonal vegetables",
+            "ar": "خضار الموسم"
+          },
+          "bio": {
+            "tr": "Haftada iki gün hasat; menü o gün gelen sebzeye göre yazılır.",
+            "en": "Harvest twice a week; the menu is written around what arrives that day.",
+            "ar": "حصاد مرتين في الأسبوع؛ وتُكتب القائمة وفق ما يصل ذلك اليوم."
+          },
+          "img": "",
+          "dept": "bahce",
+          "social": []
+        },
+        {
+          "name": "Kale Değirmeni (kurgusal)",
+          "role": {
+            "tr": "Un ve bulgur",
+            "en": "Flour and bulgur",
+            "ar": "الدقيق والبرغل"
+          },
+          "bio": {
+            "tr": "Taş değirmen unu; lahmacun ve ekmek hamurumuzun kaynağı.",
+            "en": "Stone-ground flour; the source of our lahmacun and bread dough.",
+            "ar": "دقيق مطحون بالحجر؛ مصدر عجين اللحم بعجين والخبز لدينا."
+          },
+          "img": "",
+          "dept": "kiler",
+          "social": []
+        },
+        {
+          "name": "Fıstık Kooperatifi (kurgusal)",
+          "role": {
+            "tr": "Antep fıstığı",
+            "en": "Pistachio",
+            "ar": "الفستق الحلبي"
+          },
+          "bio": {
+            "tr": "Baklava ve künefedeki fıstığın tek kaynağı; alerjen bildiriminde «ağaç fıstığı» kodu.",
+            "en": "The single source of the pistachio in our baklava and kunefe; declared with the tree-nut allergen code.",
+            "ar": "المصدر الوحيد للفستق في البقلاوة والكنافة؛ يُعلن عنه برمز مسببات حساسية المكسرات."
+          },
+          "img": "",
+          "dept": "kiler",
+          "social": []
+        }
+      ],
+      "id": "k21gxl",
+      "path": "team-2",
+      "local": "body",
+      "index": 22
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "local": "body",
+      "desing": {
+        "stil": "ikon-liste",
+        "name": {
+          "tr": "Alerjen bilgisi",
+          "en": "Allergen information",
+          "ar": "معلومات مسببات الحساسية"
+        },
+        "description": {
+          "tr": "Menümüzdeki her ürünün altında içerdiği alerjenler kodlarla gösterilir. Mutfağımızda gluten, süt, yumurta, yer fıstığı, ağaç fıstıkları, susam, kereviz ve balık işlenir; çapraz bulaşma olabilir. Şüpheniz varsa lütfen personele danışın.",
+          "en": "Under every item on our menu the allergens it contains are shown as codes. Our kitchen handles gluten, milk, eggs, peanuts, tree nuts, sesame, celery and fish, so cross-contact may occur. If in doubt, please ask our staff.",
+          "ar": "يُظهر أسفل كل طبق في قائمتنا ما يحتويه من مسببات الحساسية بالرموز. يتعامل مطبخنا مع الغلوتين والحليب والبيض والفول السوداني والمكسرات والسمسم والكرفس والسمك، وقد يحدث تلامس متبادل. وعند أي شك يُرجى سؤال العاملين."
+        },
+        "name2": {
+          "tr": "Menüde nasıl okunur?",
+          "en": "How to read the menu",
+          "ar": "كيف تقرأ القائمة"
+        },
+        "spot2": {
+          "tr": "GLU gluten, SÜT süt, YMR yumurta, FST yer fıstığı, KRZ kereviz, SSM susam, BLK balık.",
+          "en": "GLU gluten, MLK milk, EGG eggs, PNT peanuts, CEL celery, SES sesame, FSH fish.",
+          "ar": "GLU غلوتين، MLK حليب، EGG بيض، PNT فول سوداني، CEL كرفس، SES سمسم، FSH سمك."
+        },
+        "icon2": "menu_book",
+        "name3": {
+          "tr": "Özel beslenme",
+          "en": "Special diets",
+          "ar": "الأنظمة الغذائية الخاصة"
+        },
+        "spot3": {
+          "tr": "Vegan ve vejetaryen seçenekler etiketlidir; menüde alerjene göre süzebilirsiniz.",
+          "en": "Vegan and vegetarian options are tagged; you can filter the menu by allergen.",
+          "ar": "الخيارات النباتية مُعلَّمة ويمكنك تصفية القائمة حسب مسبب الحساسية."
+        },
+        "icon3": "eco",
+        "img": "restoran-menu-corba.webp",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Alerjen bilgisi",
+          "en": "Allergen information",
+          "ar": "معلومات مسببات الحساسية"
+        }
+      },
+      "category": "module",
+      "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (beyaz çerçeveli yuvarlak görsel, bugünkü görünüm) · \"yuzen-gorsel\" (dik kart görsel bandın dışına taşar, gölgeli, hafif eğik) · \"cerceve-ofset\" (kare görsel, arkasında kaymış primary renk çerçeve) · \"ikon-liste\" (yatay görsel + vizyon/misyon ikonlu madde listesi; ikon icon2/icon3). Bant zemini/yazısı bgcolor/fontcolor çifti kalır; eklenen renkler yalnız var(--mx-site-*) token.",
+      "version": "1.2.0",
+      "icon": "business",
+      "id": "11x68i",
+      "path": "module-1",
+      "data": [],
+      "index": 23
+    },
+    {
+      "name": {
+        "tr": "İletişim 7 — Bölünmüş panel",
+        "en": "Contact 7 — Split panel",
+        "ar": "اتصال 7 — لوحة مقسّمة"
+      },
+      "description": {
+        "tr": "Bölünmüş iletişim: koyu bilgi paneli (adres · telefon · e-posta · saat · sosyal · harita bağlantısı) + form (ad, e-posta, telefon, konu, mesaj, zorunlu KVKK onayı). Gönderim mailto: ya da WhatsApp hazır mesaj (desing.gonderim). Üç görsel varyant (desing.stil): bolunmus · kart-ustte · harita-arka (iframe arka plan, yüzen form). Üç dil, RTL, koyu mod token'larla.",
+        "en": "Split contact section: dark info panel (address · phone · e-mail · hours · social · map link) + form (name, e-mail, phone, subject, message, required privacy consent). Submission via mailto: or WhatsApp prefilled message (desing.gonderim). Three visual variants (desing.stil): bolunmus · kart-ustte · harita-arka (iframe background, floating form). Three languages, RTL, dark mode via tokens.",
+        "ar": "قسم اتصال مقسّم: لوحة معلومات داكنة (العنوان · الهاتف · البريد · ساعات العمل · التواصل الاجتماعي · رابط الخريطة) + نموذج (الاسم، البريد، الهاتف، الموضوع، الرسالة، موافقة خصوصية إلزامية). الإرسال عبر mailto: أو رسالة واتساب جاهزة. ثلاثة أنماط مرئية، ثلاث لغات، RTL، وضع داكن."
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "category": "contact",
+      "tags": [
+        "iletisim",
+        "contact",
+        "form",
+        "whatsapp",
+        "mailto",
+        "kvkk",
+        "ar"
+      ],
+      "desing": {
+        "max": "1200px",
+        "stil": "bolunmus",
+        "gonderim": "mailto",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "panelbg": "color-mix(in srgb, #0f172a 82%, var(--mx-site-primary, #2563eb))",
+        "paneltext": "#f1f5f9",
+        "panelmuted": "color-mix(in srgb, #f1f5f9 74%, transparent)",
+        "errcolor": "var(--mx-color-danger, #b42318)",
+        "radius": "0px",
+        "title": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "ar": "اتصل بنا"
+        },
+        "description": {
+          "tr": "Sorularınız, grup rezervasyonları ve özel beslenme talepleri için yazın.",
+          "en": "Write to us for questions, group bookings and special dietary requests.",
+          "ar": "راسلنا للأسئلة وحجوزات المجموعات وطلبات الأنظمة الغذائية الخاصة."
+        },
+        "panelTitle": {
+          "tr": "İletişim Bilgileri",
+          "en": "Contact Details",
+          "ar": "بيانات الاتصال"
+        },
+        "panelText": {
+          "tr": "Ofisimize uğrayın, arayın ya da yazın — size yardımcı olmaktan mutluluk duyarız.",
+          "en": "Drop by our office, call or write — we are happy to help.",
+          "ar": "تفضّل بزيارة مكتبنا أو اتصل بنا أو اكتب لنا — يسعدنا مساعدتك."
+        },
+        "address": {
+          "tr": "Bağlar Yolu No: 3, Nizip, Gaziantep (kurgusal adres)",
+          "en": "3 Baglar Road, Nizip, Gaziantep (fictional address)",
+          "ar": "طريق باغلار رقم 3، نيزيب، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 02",
+        "whatsapp": "903420000002",
+        "email": "sofra@zeytindali.example",
+        "hours": {
+          "tr": "Salı – Pazar 12:00 – 22:00 · Pazartesi kapalı",
+          "en": "Tuesday – Sunday 12:00 – 22:00 · Closed Monday",
+          "ar": "الثلاثاء – الأحد 12:00 – 22:00 · الإثنين مغلق"
+        },
+        "mapUrl": "",
+        "mapEmbed": "",
+        "addressTitle": {
+          "tr": "Adres",
+          "en": "Address",
+          "ar": "العنوان"
+        },
+        "phoneTitle": {
+          "tr": "Telefon",
+          "en": "Phone",
+          "ar": "الهاتف"
+        },
+        "emailTitle": {
+          "tr": "E-posta",
+          "en": "E-mail",
+          "ar": "البريد الإلكتروني"
+        },
+        "hoursTitle": {
+          "tr": "Çalışma Saatleri",
+          "en": "Working Hours",
+          "ar": "ساعات العمل"
+        },
+        "mapLink": {
+          "tr": "Haritada gör",
+          "en": "View on map",
+          "ar": "عرض على الخريطة"
+        },
+        "mapTitle": {
+          "tr": "Konum haritası",
+          "en": "Location map",
+          "ar": "خريطة الموقع"
+        },
+        "socialTitle": {
+          "tr": "Bizi takip edin",
+          "en": "Follow us",
+          "ar": "تابعنا"
+        },
+        "social": [],
+        "formTitle": {
+          "tr": "Mesaj Gönderin",
+          "en": "Send a Message",
+          "ar": "أرسل رسالة"
+        },
+        "nameLabel": {
+          "tr": "Ad Soyad",
+          "en": "Full name",
+          "ar": "الاسم الكامل"
+        },
+        "emailLabel": {
+          "tr": "E-posta",
+          "en": "E-mail",
+          "ar": "البريد الإلكتروني"
+        },
+        "phoneLabel": {
+          "tr": "Telefon",
+          "en": "Phone",
+          "ar": "الهاتف"
+        },
+        "subjectLabel": {
+          "tr": "Konu",
+          "en": "Subject",
+          "ar": "الموضوع"
+        },
+        "subjectPlaceholder": {
+          "tr": "Konu seçin",
+          "en": "Choose a subject",
+          "ar": "اختر الموضوع"
+        },
+        "subjects": [
+          {
+            "id": "rez",
+            "name": {
+              "tr": "Rezervasyon",
+              "en": "Reservation",
+              "ar": "حجز"
+            }
+          },
+          {
+            "id": "grup",
+            "name": {
+              "tr": "Grup yemeği",
+              "en": "Group dinner",
+              "ar": "عشاء جماعي"
+            }
+          },
+          {
+            "id": "alerjen",
+            "name": {
+              "tr": "Alerjen / özel beslenme",
+              "en": "Allergen / special diet",
+              "ar": "مسببات الحساسية / نظام غذائي خاص"
+            }
+          },
+          {
+            "id": "diger",
+            "name": {
+              "tr": "Diğer",
+              "en": "Other",
+              "ar": "أخرى"
+            }
+          }
+        ],
+        "messageLabel": {
+          "tr": "Mesajınız",
+          "en": "Your message",
+          "ar": "رسالتك"
+        },
+        "kvkkText": {
+          "tr": "Kişisel verilerimin bu talep için işlenmesine ilişkin aydınlatma metnini okudum.",
+          "en": "I have read the privacy notice on how my personal data is processed for this request.",
+          "ar": "قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية لهذا الطلب."
+        },
+        "kvkkLinkText": {
+          "tr": "Aydınlatma metni",
+          "en": "Privacy notice",
+          "ar": "إشعار الخصوصية"
+        },
+        "kvkkHref": "kisiselveriler",
+        "submitText": {
+          "tr": "Gönder",
+          "en": "Send",
+          "ar": "إرسال"
+        },
+        "submitWhatsappText": {
+          "tr": "WhatsApp ile gönder",
+          "en": "Send via WhatsApp",
+          "ar": "إرسال عبر واتساب"
+        },
+        "mailSubject": {
+          "tr": "Web sitesi iletişim formu",
+          "en": "Website contact form",
+          "ar": "نموذج الاتصال بالموقع"
+        },
+        "optionalText": {
+          "tr": "isteğe bağlı",
+          "en": "optional",
+          "ar": "اختياري"
+        },
+        "errRequired": {
+          "tr": "Bu alan zorunludur.",
+          "en": "This field is required.",
+          "ar": "هذا الحقل إلزامي."
+        },
+        "errEmail": {
+          "tr": "Geçerli bir e-posta adresi girin.",
+          "en": "Enter a valid e-mail address.",
+          "ar": "أدخل بريدًا إلكترونيًا صالحًا."
+        },
+        "errPhone": {
+          "tr": "Geçerli bir telefon numarası girin.",
+          "en": "Enter a valid phone number.",
+          "ar": "أدخل رقم هاتف صالحًا."
+        },
+        "errKvkk": {
+          "tr": "Devam etmek için onay kutusunu işaretleyin.",
+          "en": "Tick the consent box to continue.",
+          "ar": "حدّد خانة الموافقة للمتابعة."
+        },
+        "errSummary": {
+          "tr": "Lütfen işaretli alanları düzeltin.",
+          "en": "Please fix the highlighted fields.",
+          "ar": "يرجى تصحيح الحقول المحددة."
+        },
+        "okText": {
+          "tr": "E-posta uygulamanız açılıyor; mesajı oradan gönderebilirsiniz.",
+          "en": "Your e-mail app is opening; you can send the message from there.",
+          "ar": "يتم فتح تطبيق البريد الإلكتروني؛ يمكنك إرسال الرسالة من هناك."
+        },
+        "okWhatsappText": {
+          "tr": "WhatsApp açılıyor; hazır mesajı gönderebilirsiniz.",
+          "en": "WhatsApp is opening; you can send the prepared message.",
+          "ar": "يتم فتح واتساب؛ يمكنك إرسال الرسالة الجاهزة."
+        },
+        "waIntro": {
+          "tr": "Merhaba, web sitenizden yazıyorum.",
+          "en": "Hello, I am writing from your website.",
+          "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
+        }
+      },
+      "data": [],
+      "id": "eqieu0",
+      "path": "contact-7",
+      "local": "body",
+      "index": 24
+    },
+    {
+      "name": "Footer 9 — Kurumsal",
+      "desing": {
+        "showlang": true,
+        "maxpages": 8,
+        "bgcolor": "var(--mx-site-primary, #2E5E4E)",
+        "color": "var(--mx-site-primary-contrast, #ffffff)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 94%, transparent)",
+        "accent": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 24%, transparent)",
+        "logo_maxh": "56px",
+        "logo_plate": true,
+        "about": {
+          "tr": "Zeytin bahçesinde mevsim mutfağı; üreticisi adıyla yazılan menü. Kurgusal demo restoran.",
+          "en": "Seasonal cooking in an olive garden; a menu that names its growers. A fictional demo restaurant.",
+          "ar": "مطبخ موسمي في حديقة زيتون؛ قائمة تذكر منتجيها. مطعم تجريبي افتراضي."
+        },
+        "title_pages": {
+          "tr": "Sayfalar",
+          "en": "Pages",
+          "ar": "الصفحات"
+        },
+        "title_contact": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "ar": "اتصل بنا"
+        },
+        "title_social": {
+          "tr": "Bizi Takip Edin",
+          "en": "Follow Us",
+          "ar": "تابعنا"
+        },
+        "address": {
+          "tr": "Bağlar Yolu No: 3, Nizip, Gaziantep (kurgusal adres)",
+          "en": "3 Baglar Road, Nizip, Gaziantep (fictional address)",
+          "ar": "طريق باغلار رقم 3، نيزيب، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 02",
+        "email": "sofra@zeytindali.example",
+        "social": [],
+        "legal": [
+          {
+            "name": {
+              "tr": "Hakkımızda",
+              "en": "About us",
+              "ar": "من نحن"
+            },
+            "href": "hakkimizda"
+          },
+          {
+            "name": {
+              "tr": "Kişisel veriler",
+              "en": "Personal data",
+              "ar": "البيانات الشخصية"
+            },
+            "href": "kisiselveriler"
+          }
+        ],
+        "rightsText": {
+          "tr": "Tüm hakları saklıdır.",
+          "en": "All rights reserved.",
+          "ar": "جميع الحقوق محفوظة."
+        }
+      },
+      "category": "footer",
+      "data": [],
+      "description": "Kurumsal alt bilgi (footer): 4 sütun — marka (logo + kısa metin), sayfalar, iletişim (address/phone/email; boşsa setting.phone/email, hiçbiri yoksa sütun gizli), sosyal (social: [{ad,url}]; boşsa gizli). Alt şerit: telif (yıl otomatik), yasal bağlantılar (legal: [{text,href}], dil önekli), dil seçici. Renkler yalnız desing anahtarı + var(--mx-site-*, fallback): token'sız sitede fallback, colorScheme:auto sitede koyu mod uyumlu. logo_maxh / logo_plate footer-3 ile aynı.",
+      "version": "1.0.0",
+      "icon": "footer",
+      "id": "g7dadu",
+      "path": "footer-9",
+      "local": "footer",
+      "index": 25
+    }
+  ]
+}

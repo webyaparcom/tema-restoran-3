@@ -1,0 +1,40 @@
+{
+  "name": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة"
+  },
+  "status": "play",
+  "id": "kalitepolitikamiz",
+  "path": "kalitepolitikamiz",
+  "category": "",
+  "text": {
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Üretici izlenebilirliği, soğuk zincir, çapraz bulaşma önlemleri ve her üründe eksiksiz alerjen bildirimi esastır.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Grower traceability, cold-chain compliance, cross-contact precautions and complete allergen declarations for every item are our standard.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>تتبّع المنتجين والالتزام بسلسلة التبريد واحتياطات منع التلامس المتبادل والإفصاح الكامل عن مسببات الحساسية لكل طبق هي معيارنا.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "t6pd01",
+      "t6ca01"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 3,
+  "icon": "home",
+  "title": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة"
+  },
+  "description": {
+    "tr": "Kalite politikamız",
+    "en": "Our quality policy",
+    "ar": "سياسة الجودة لدينا"
+  },
+  "keyword": {},
+  "update": "2026-11-05T22:24:45.918Z",
+  "date": "2026-05-19"
+}

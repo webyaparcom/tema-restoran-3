@@ -1,0 +1,44 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About us",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "id": "hakkimizda",
+  "path": "hakkimizda",
+  "category": "",
+  "text": {
+    "tr": "<h2>Hakkımızda</h2><p>Zeytindalı, Nizip’te bir zeytin bahçesinin içinde mevsimin getirdiğini pişiren kurgusal bir demo restorandır. Menü haftada iki kez üreticiden gelen ürüne göre yazılır; her ürünün altında üreticisi ve alerjen kodları yer alır, fiyatlar nihaidir.</p>",
+    "en": "<h2>About us</h2><p>Zeytindali is a fictional demo restaurant inside an olive garden in Nizip that cooks whatever the season brings. The menu is rewritten twice a week around what arrives from the growers; every item lists its grower and allergen codes, and prices are final.</p>",
+    "ar": "<h2>من نحن</h2><p>زيتينداله مطعم تجريبي افتراضي داخل حديقة زيتون في نيزيب يطهو ما يجلبه الموسم. تُكتب القائمة مرتين في الأسبوع وفق ما يصل من المنتجين؛ ويُذكر تحت كل طبق منتجه ورموز مسببات الحساسية، والأسعار نهائية.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "t6in01",
+      "7gak02"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 0,
+  "icon": "info",
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About us",
+    "ar": "من نحن"
+  },
+  "description": {
+    "tr": "Zeytindalı hikâyesi.",
+    "en": "The story of Zeytindali.",
+    "ar": "قصة زيتينداله."
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "update": "2026-11-05T22:24:45.913Z",
+  "date": "2026-05-19"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "l3e6xw9zbx",
+  "name": {
+    "tr": "Alerjen bilgisi",
+    "en": "Allergens",
+    "ar": "مسببات الحساسية"
+  },
+  "description": {
+    "tr": "Menüdeki alerjenlerin nasıl gösterildiği.",
+    "en": "How allergens are shown on the menu.",
+    "ar": "كيف تُعرض مسببات الحساسية في القائمة."
+  },
+  "keyword": {
+    "tr": "alerjen, gluten, fıstık",
+    "en": "allergen, gluten, nuts",
+    "ar": "مسببات الحساسية، غلوتين، مكسرات"
+  },
+  "path": "alerjen-bilgisi",
+  "icon": "health_and_safety",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "11x68i"
+    ],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Alerjen bilgisi",
+    "en": "Allergens",
+    "ar": "مسببات الحساسية"
+  },
+  "date": "2026-10-31T14:32:59.955Z",
+  "update": "2026-11-05T22:24:45.907Z"
+}
