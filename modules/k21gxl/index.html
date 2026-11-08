@@ -1,0 +1,210 @@
+<section class="modulex-t2 modulex-t2--{{t2stil}} modulex-t2--hover-{{t2hover}}" id="t2-{{id}}">
+  <div class="modulex-t2__wrap">
+    {{t2head}}
+    {{t2chips}}
+    <p class="modulex-t2__empty" role="status" aria-live="polite" hidden></p>
+    <ul class="modulex-t2__grid">{{t2cards}}</ul>
+    {{t2cta}}
+  </div>
+  <script type="application/json" id="t2-{{id}}-veri">{{t2veri}}</script>
+</section>
+
+<style>
+  /* team-2 — Ekip (zengin) (31 Eki 2026, G8-C). Renkler yalnız desing anahtarı (token varsayılanlı). */
+  .modulex-t2 {
+    box-sizing: border-box;
+    width: 100%;
+    padding-block: clamp(40px, 7vw, 84px);
+    padding-inline: clamp(16px, 4vw, 32px);
+    background: --bgcolor--;
+    color: --textcolor--;
+  }
+  .modulex-t2 *, .modulex-t2 *::before, .modulex-t2 *::after { box-sizing: border-box; }
+  .modulex-t2__wrap { max-width: --max--; margin-inline: auto; }
+
+  .modulex-t2__head { margin-block-end: 24px; text-align: start; max-width: 64ch; }
+  .modulex-t2__title { margin: 0 0 8px; font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem); line-height: 1.2; color: --textcolor--; }
+  .modulex-t2__desc { margin: 0; color: --mutedcolor--; line-height: 1.7; }
+
+  /* çipler */
+  .modulex-t2__chips { display: flex; flex-wrap: wrap; gap: 8px; margin-block-end: 24px; }
+  .modulex-t2__chips[hidden] { display: none; }
+  .modulex-t2__chip {
+    display: inline-flex; align-items: center; gap: 8px; min-height: 44px; min-width: 64px; padding-inline: 18px;
+    border: 1px solid color-mix(in srgb, --textcolor-- 50%, transparent); border-radius: 999px; background: --surface--; color: --textcolor--;
+    font: inherit; font-size: 0.95rem; font-weight: 500; cursor: pointer; /* kenar %50 metin: çip yüzeyi zemine yakın, sınır ≥ 3:1 kenarlıkla */
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+  }
+  .modulex-t2__chip:hover { background: --surface2--; }
+  .modulex-t2__chip:active { transform: scale(0.97); }
+  .modulex-t2__chip[aria-pressed="true"] { background: --accent--; border-color: --accent--; color: --accentText--; }
+  .modulex-t2__chip-n { font-size: 0.8rem; opacity: 0.8; font-variant-numeric: tabular-nums; }
+  .modulex-t2__chip:focus-visible, .modulex-t2__sl:focus-visible, .modulex-t2__cta:focus-visible { outline: 3px solid --accent--; outline-offset: 2px; }
+  .modulex-t2__empty { margin: 0 0 16px; padding: 28px 16px; text-align: center; color: --mutedcolor--; background: --surface--; border-radius: --radius--; }
+  .modulex-t2__empty[hidden] { display: none; }
+
+  /* ızgara + kart (kartli) */
+  .modulex-t2__grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
+  .modulex-t2__card { display: flex; flex-direction: column; gap: 0; min-width: 0; border-radius: --radius--; background: --surface--; border: 1px solid --bordercolor--; overflow: hidden; transition: transform 0.25s ease, box-shadow 0.25s ease; }
+  .modulex-t2__card[hidden] { display: none; }
+  .modulex-t2__card:hover, .modulex-t2__card:focus-within { transform: translateY(-5px); box-shadow: 0 22px 44px -28px rgba(0, 0, 0, 0.45); }
+  .modulex-t2__media { position: relative; aspect-ratio: 4 / 5; overflow: hidden; background: --surface2--; }
+  .modulex-t2__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease, opacity 0.3s ease; }
+  .modulex-t2__card:hover .modulex-t2__img { transform: scale(1.05); }
+  .modulex-t2__img2 { opacity: 0; }
+  .modulex-t2__card--ikinci:hover .modulex-t2__img2, .modulex-t2__card--ikinci:focus-within .modulex-t2__img2 { opacity: 1; }
+  .modulex-t2__ph { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(145deg, --surface2--, color-mix(in srgb, --accent-- 22%, --surface2--)); color: --textcolor--; }
+  .modulex-t2__bas { font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; letter-spacing: 0.04em; opacity: 0.7; }
+
+  /* sosyal katman (hover-sosyal) */
+  .modulex-t2__overlay {
+    position: absolute; inset-inline: 0; inset-block-end: 0; padding: 14px;
+    display: flex; justify-content: center;
+    background: linear-gradient(to top, color-mix(in srgb, --textcolor-- 55%, transparent), transparent);
+    opacity: 0; transform: translateY(10px); transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+  .modulex-t2__overlay:empty { display: none; }
+  .modulex-t2__card:hover .modulex-t2__overlay, .modulex-t2__card:focus-within .modulex-t2__overlay { opacity: 1; transform: none; }
+  @media (hover: none) { .modulex-t2__overlay { opacity: 1; transform: none; } }
+  .modulex-t2__social { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-t2 a.modulex-t2__sl:link, .modulex-t2 a.modulex-t2__sl:visited {
+    display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 999px;
+    background: --bgcolor--; color: --textcolor--; text-decoration: none; box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.35);
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  }
+  .modulex-t2 a.modulex-t2__sl:hover, .modulex-t2 a.modulex-t2__sl:focus-visible { background: --accent--; color: --accentText--; transform: translateY(-2px); }
+  .modulex-t2__sl .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-t2__body { padding: 18px 18px 20px; display: flex; flex-direction: column; gap: 4px; }
+  .modulex-t2__name { margin: 0; font-size: 1.1rem; line-height: 1.3; color: --textcolor--; }
+  .modulex-t2__role { margin: 0; font-size: 0.88rem; font-weight: 600; color: --accent--; letter-spacing: 0.02em; }
+  .modulex-t2__bio { margin: 6px 0 0; font-size: 0.92rem; line-height: 1.6; color: --mutedcolor--; }
+  .modulex-t2__body .modulex-t2__social { margin-block-start: 12px; }
+  .modulex-t2__body a.modulex-t2__sl:link, .modulex-t2__body a.modulex-t2__sl:visited { box-shadow: none; background: --surface2--; }
+
+  .modulex-t2__ctawrap { margin: 32px 0 0; text-align: center; }
+  .modulex-t2 a.modulex-t2__cta:link, .modulex-t2 a.modulex-t2__cta:visited {
+    display: inline-flex; align-items: center; gap: 10px; min-height: 50px; padding-inline: 26px; border-radius: 999px;
+    background: --accent--; color: --accentText--; font-weight: 600; text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .modulex-t2 a.modulex-t2__cta:hover, .modulex-t2 a.modulex-t2__cta:focus-visible { transform: translateY(-2px); box-shadow: 0 12px 26px -12px --accent--; color: --accentText--; }
+  [dir="rtl"] .modulex-t2__cta .material-symbols-outlined { transform: scaleX(-1); }
+
+  /* === yuvarlak: daire fotoğraf, ortalı metin, kart zemini yok === */
+  .modulex-t2--yuvarlak .modulex-t2__head { text-align: center; margin-inline: auto; }
+  .modulex-t2--yuvarlak .modulex-t2__chips { justify-content: center; }
+  .modulex-t2--yuvarlak .modulex-t2__card { background: transparent; border: 0; overflow: visible; align-items: center; text-align: center; }
+  .modulex-t2--yuvarlak .modulex-t2__card:hover { transform: none; box-shadow: none; }
+  .modulex-t2--yuvarlak .modulex-t2__media { width: min(180px, 70%); aspect-ratio: 1; border-radius: 999px; box-shadow: 0 0 0 4px --bgcolor--, 0 0 0 6px --bordercolor--; transition: box-shadow 0.25s ease; }
+  .modulex-t2--yuvarlak .modulex-t2__card:hover .modulex-t2__media { box-shadow: 0 0 0 4px --bgcolor--, 0 0 0 6px --accent--; }
+  .modulex-t2--yuvarlak .modulex-t2__overlay { inset: 0; align-items: center; background: color-mix(in srgb, --textcolor-- 45%, transparent); border-radius: 999px; }
+  .modulex-t2--yuvarlak .modulex-t2__body { align-items: center; padding-inline: 8px; }
+  .modulex-t2--yuvarlak .modulex-t2__body .modulex-t2__social { justify-content: center; }
+
+  /* === yatay-liste: fotoğraf solda, bio sağda, satır ayıraçlı === */
+  .modulex-t2--yatay-liste .modulex-t2__grid { grid-template-columns: minmax(0, 1fr); gap: 0; border-block-start: 1px solid --bordercolor--; }
+  .modulex-t2--yatay-liste .modulex-t2__card { flex-direction: row; align-items: center; gap: 24px; padding: 20px 8px; border: 0; border-block-end: 1px solid --bordercolor--; border-radius: 0; background: transparent; overflow: visible; }
+  .modulex-t2--yatay-liste .modulex-t2__card:hover { transform: none; box-shadow: none; background: --surface--; }
+  .modulex-t2--yatay-liste .modulex-t2__media { flex: 0 0 160px; width: 160px; aspect-ratio: 4 / 5; border-radius: calc(--radius-- * 0.7); }
+  .modulex-t2--yatay-liste .modulex-t2__body { flex: 1 1 auto; padding: 0; max-width: 64ch; }
+  .modulex-t2--yatay-liste .modulex-t2__name { font-size: 1.25rem; }
+  .modulex-t2--yatay-liste .modulex-t2__bio { font-size: 1rem; }
+
+  /* giriş animasyonu (JS işaretleyince) */
+  .modulex-t2[data-t2-anim] .modulex-t2__card { opacity: 0; transform: translateY(14px); transition: opacity 0.3s ease, transform 0.3s ease; transition-delay: calc(var(--t2-i, 0) * 0.05s); }
+  .modulex-t2.is-in .modulex-t2__card { opacity: 1; transform: none; }
+  .modulex-t2.is-in .modulex-t2__card:hover { transition-delay: 0s; }
+
+  @media (max-width: 1024px) {
+    .modulex-t2__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  @media (max-width: 768px) {
+    .modulex-t2__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .modulex-t2__chips { flex-wrap: nowrap; overflow-x: auto; padding-block-end: 4px; scrollbar-width: thin; }
+    .modulex-t2__chip { flex: 0 0 auto; }
+    .modulex-t2--yatay-liste .modulex-t2__card { gap: 16px; }
+    .modulex-t2--yatay-liste .modulex-t2__media { flex-basis: 110px; width: 110px; }
+    [class*="modulex"] { max-width: 100%; box-sizing: border-box; }
+  }
+  @media (max-width: 480px) {
+    .modulex-t2__grid { grid-template-columns: minmax(0, 1fr); }
+    .modulex-t2--yuvarlak .modulex-t2__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-t2 *, .modulex-t2 *::before, .modulex-t2 *::after { animation: none !important; transition: none !important; }
+    .modulex-t2[data-t2-anim] .modulex-t2__card { opacity: 1; transform: none; }
+    .modulex-t2__card:hover, .modulex-t2__card:hover .modulex-t2__img { transform: none; }
+  }
+</style>
+
+<script>
+  (function () {
+    var kok = document.getElementById("t2-{{id}}");
+    if (!kok || kok.getAttribute("data-t2-hazir") === "1") { return; }
+    kok.setAttribute("data-t2-hazir", "1");
+    var veri = {};
+    try { veri = JSON.parse(document.getElementById("t2-{{id}}-veri").textContent); } catch (e) { veri = {}; }
+
+    if (window.IntersectionObserver && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      kok.setAttribute("data-t2-anim", "1");
+      var io = new IntersectionObserver(function (g) {
+        for (var i = 0; i < g.length; i++) { if (g[i].isIntersecting) { kok.classList.add("is-in"); io.disconnect(); } }
+      }, { threshold: 0.1 });
+      io.observe(kok);
+    }
+    if (!veri.filter) { return; }
+
+    var kartlar = kok.querySelectorAll(".modulex-t2__card");
+    var chips = kok.querySelectorAll(".modulex-t2__chip");
+    var chipKap = kok.querySelector(".modulex-t2__chips");
+    var bos = kok.querySelector(".modulex-t2__empty");
+    var i;
+
+    function uygula(aktif) {
+      var sayi = 0;
+      for (var j = 0; j < kartlar.length; j++) {
+        var goster = !aktif || (kartlar[j].getAttribute("data-t2-dept") || "") === aktif;
+        if (goster) { kartlar[j].removeAttribute("hidden"); sayi++; } else { kartlar[j].setAttribute("hidden", ""); }
+      }
+      for (var c = 0; c < chips.length; c++) {
+        chips[c].setAttribute("aria-pressed", (chips[c].getAttribute("data-t2-dept") || "") === aktif ? "true" : "false");
+      }
+      if (bos) { bos.textContent = sayi ? "" : (veri.empty || ""); if (sayi) { bos.setAttribute("hidden", ""); } else { bos.removeAttribute("hidden"); } }
+    }
+
+    /* mx-filtre.js varsa onun motoru (URL ?dept= durumu); yoksa yerel filtre */
+    function mxIle() {
+      var liste = [];
+      for (i = 0; i < kartlar.length; i++) { liste.push({ i: i, dept: kartlar[i].getAttribute("data-t2-dept") || "" }); }
+      var f = window.MxFiltre.olustur({ items: liste, facets: { dept: { tip: "tek" } }, url: true, urlOnek: veri.prefix || "", dil: veri.lang });
+      f.abone(function (s) { uygula(s.durum.facet.dept || ""); });
+      for (i = 0; i < chips.length; i++) {
+        chips[i].addEventListener("click", function (ev) {
+          var id = ev.currentTarget.getAttribute("data-t2-dept") || "";
+          var simdi = f.durum().facet.dept || "";
+          f.ayarla({ dept: simdi === id ? "" : id });
+        });
+      }
+      uygula(f.durum().facet.dept || "");
+    }
+    function yerel() {
+      var aktif = "";
+      for (i = 0; i < chips.length; i++) {
+        chips[i].addEventListener("click", function (ev) {
+          var id = ev.currentTarget.getAttribute("data-t2-dept") || "";
+          aktif = aktif === id ? "" : id;
+          uygula(aktif);
+        });
+      }
+      uygula("");
+    }
+    function kur() {
+      if (window.mxLoad) {
+        window.mxLoad("mxfiltre").then(function () { if (window.MxFiltre) { mxIle(); } else { yerel(); } }, yerel);
+      } else { yerel(); }
+      if (chipKap) { chipKap.removeAttribute("hidden"); }
+    }
+    if (window.mxLoad || document.readyState === "complete") { kur(); } else { window.addEventListener("load", kur); }
+  })();
+</script>

@@ -1,0 +1,40 @@
+{
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "status": "play",
+  "id": "misyon",
+  "path": "misyon",
+  "category": "",
+  "text": {
+    "tr": "<h2>Misyonumuz</h2>\n<p>Misyonumuz, üreticisi belli ürünü mevsiminde, açık bilgiyle ve sakin bir sofrada sunmaktır.</p>",
+    "en": "<h2>Our mission</h2>\n<p>Our mission is to serve traceable produce in season, with clear information, at a calm table.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>مهمتنا أن نقدّم منتجات معروفة المصدر في موسمها، مع معلومات واضحة وعلى مائدة هادئة.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "t6pd01",
+      "t6ca01"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 1,
+  "icon": "home",
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "description": {
+    "tr": "Misyonumuz",
+    "en": "Our mission",
+    "ar": "مهمتنا"
+  },
+  "keyword": {},
+  "update": "2026-11-05T22:24:45.916Z",
+  "date": "2026-05-19"
+}

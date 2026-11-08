@@ -1,0 +1,174 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Menü",
+        "en": "Menu",
+        "ar": "القائمة"
+      },
+      "status": "play",
+      "category": "",
+      "id": "yvi9dlb59o",
+      "url": "",
+      "path": "menu",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [
+          "dmjbao"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Zeytindalı mevsim menüsü; üretici adı ve alerjen bilgisiyle.",
+        "en": "Zeytindali seasonal menu with grower names and allergen information.",
+        "ar": "قائمة زيتينداله الموسمية مع أسماء المنتجين ومعلومات مسببات الحساسية."
+      },
+      "icon": "restaurant_menu"
+    },
+    {
+      "name": {
+        "tr": "Rezervasyon",
+        "en": "Reservation",
+        "ar": "الحجز"
+      },
+      "status": "play",
+      "category": "",
+      "id": "hs54qzyeyo",
+      "url": "",
+      "path": "rezervasyon",
+      "index": 1,
+      "icon": "event_seat",
+      "desing": {
+        "header": [],
+        "body": [
+          "b0a81p"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Çevrimiçi masa rezervasyonu (demo).",
+        "en": "Online table reservation (demo).",
+        "ar": "حجز طاولة عبر الإنترنت (تجريبي)."
+      }
+    },
+    {
+      "id": "rogmxrdkkw",
+      "name": {
+        "tr": "Galeri",
+        "en": "Gallery",
+        "ar": "المعرض"
+      },
+      "description": {
+        "tr": "Bahçe, salon, mutfak ve tabaklardan fotoğraflar.",
+        "en": "Photos of the garden, the dining room, the kitchen and the plates.",
+        "ar": "صور من الحديقة والصالة والمطبخ والأطباق."
+      },
+      "path": "galeri",
+      "icon": "photo_library",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "o5s4xp"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "tkhpl2qupp",
+      "name": {
+        "tr": "Üreticiler",
+        "en": "Growers",
+        "ar": "المنتجون"
+      },
+      "description": {
+        "tr": "Menüdeki ürünlerin geldiği çiftlikler (kurgusal).",
+        "en": "The farms our menu comes from (fictional).",
+        "ar": "المزارع التي تأتي منها قائمتنا (افتراضية)."
+      },
+      "path": "ureticiler",
+      "icon": "agriculture",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "k21gxl",
+          "7gak02"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "l3e6xw9zbx",
+      "name": {
+        "tr": "Alerjen bilgisi",
+        "en": "Allergens",
+        "ar": "مسببات الحساسية"
+      },
+      "description": {
+        "tr": "Menüdeki alerjenlerin nasıl gösterildiği.",
+        "en": "How allergens are shown on the menu.",
+        "ar": "كيف تُعرض مسببات الحساسية في القائمة."
+      },
+      "path": "alerjen-bilgisi",
+      "icon": "health_and_safety",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "11x68i"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "category": "",
+      "id": "xnzu5au0ag",
+      "url": "",
+      "path": "iletisim",
+      "index": 5,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "eqieu0",
+          "t6mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, e-posta, form ve çalışma saatleri.",
+        "en": "Address, phone, e-mail, form and opening hours.",
+        "ar": "العنوان والهاتف والبريد الإلكتروني والنموذج وساعات العمل."
+      }
+    }
+  ],
+  "desc": [],
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "bgimg": true,
+    "detail": true,
+    "body": true
+  }
+}

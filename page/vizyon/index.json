@@ -1,0 +1,40 @@
+{
+  "name": {
+    "tr": "Vizyon",
+    "en": "Vision",
+    "ar": "الرؤية"
+  },
+  "status": "play",
+  "id": "vizyon",
+  "path": "vizyon",
+  "category": "",
+  "text": {
+    "tr": "<h2>Vizyonumuz</h2>\n<p>Gaziantep’te tarladan sofraya mutfağın şeffaf ve güvenilir örneği olmak.</p>",
+    "en": "<h2>Our vision</h2>\n<p>To be the transparent, trusted example of field-to-table cooking in Gaziantep.</p>",
+    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون المثال الشفاف والموثوق لمطبخ «من الحقل إلى المائدة» في غازي عنتاب.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "t6pd01",
+      "t6ca01"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 2,
+  "icon": "home",
+  "title": {
+    "tr": "Vizyon",
+    "en": "Vision",
+    "ar": "الرؤية"
+  },
+  "description": {
+    "tr": "Vizyonumuz",
+    "en": "Our vision",
+    "ar": "رؤيتنا"
+  },
+  "keyword": {},
+  "update": "2026-11-05T22:24:45.917Z",
+  "date": "2026-05-19"
+}

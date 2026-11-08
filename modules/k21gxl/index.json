@@ -1,0 +1,99 @@
+{
+  "name": {
+    "tr": "Ekip 2 — Zengin kartlar",
+    "en": "Team 2 — Rich cards",
+    "ar": "الفريق 2 — بطاقات غنية"
+  },
+  "description": {
+    "tr": "Ekip kartları: fotoğraf (hover'da ikinci görsel ya da sosyal ikonlar belirir — desing.hover), ad, unvan, kısa bio; bölüm çipleriyle filtre (mx-filtre.js varsa onu, yoksa yerel filtre kullanır; ?dept= URL durumu); «tüm ekip» CTA. Üç varyant (desing.stil): kartli · yuvarlak (daire fotoğraf, ortalı) · yatay-liste (fotoğraf sol, bio sağ). data[] = {name, role{}, bio{}, img, img2, dept, social[]}. Üç dil, RTL, koyu mod token'larla.",
+    "en": "Team cards: photo (second image or social icons appear on hover — desing.hover), name, role, short bio; department chip filter (uses mx-filtre.js when available, otherwise a local filter; ?dept= URL state); «whole team» CTA. Three variants (desing.stil): kartli · yuvarlak (round photo, centred) · yatay-liste (photo left, bio right). data[] = {name, role{}, bio{}, img, img2, dept, social[]}. Three languages, RTL, dark mode via tokens.",
+    "ar": "بطاقات الفريق: صورة (تظهر صورة ثانية أو أيقونات التواصل عند التمرير)، الاسم، المسمّى، نبذة قصيرة؛ تصفية بشرائح الأقسام؛ زر «كل الفريق». ثلاثة أنماط: بطاقات · دائري · قائمة أفقية. ثلاث لغات، RTL، وضع داكن."
+  },
+  "version": "1.0.0",
+  "icon": "groups",
+  "category": "team",
+  "tags": ["ekip", "team", "kadro", "filtre", "ar"],
+  "desing": {
+    "max": "1200px",
+    "stil": "kartli",
+    "hover": "sosyal",
+    "filter": true,
+    "urlPrefix": "",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "textcolor": "var(--mx-site-text, #1b1b1b)",
+    "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 70%, var(--mx-site-bg, #ffffff))",
+    "surface": "var(--mx-site-surface, #f6f6f4)",
+    "surface2": "var(--mx-site-surface-2, #ececea)",
+    "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "radius": "18px",
+    "title": { "tr": "Ekibimiz", "en": "Our Team", "ar": "فريقنا" },
+    "description": {
+      "tr": "Alanında uzman, işine tutkuyla bağlı bir ekip. Her projede aynı özen.",
+      "en": "A team of experts who are passionate about their work. The same care on every project.",
+      "ar": "فريق من الخبراء الشغوفين بعملهم. العناية نفسها في كل مشروع."
+    },
+    "filterLabel": { "tr": "Bölüme göre filtrele", "en": "Filter by department", "ar": "التصفية حسب القسم" },
+    "allLabel": { "tr": "Tümü", "en": "All", "ar": "الكل" },
+    "ctaText": { "tr": "Tüm ekibi görün", "en": "Meet the whole team", "ar": "تعرّف على كل الفريق" },
+    "ctaHref": "",
+    "socialLabel": { "tr": "{ad} — sosyal bağlantılar", "en": "{ad} — social links", "ar": "{ad} — روابط التواصل" },
+    "emptyText": { "tr": "Bu bölümde gösterilecek kişi yok.", "en": "No people to show in this department.", "ar": "لا يوجد أشخاص لعرضهم في هذا القسم." },
+    "departments": [
+      { "id": "yonetim", "name": { "tr": "Yönetim", "en": "Management", "ar": "الإدارة" } },
+      { "id": "tasarim", "name": { "tr": "Tasarım", "en": "Design", "ar": "التصميم" } },
+      { "id": "yazilim", "name": { "tr": "Yazılım", "en": "Engineering", "ar": "البرمجة" } },
+      { "id": "satis", "name": { "tr": "Satış", "en": "Sales", "ar": "المبيعات" } }
+    ]
+  },
+  "data": [
+    {
+      "name": "Ayşe Yılmaz",
+      "role": { "tr": "Genel Müdür", "en": "General Manager", "ar": "المديرة العامة" },
+      "bio": { "tr": "20 yıllık sektör deneyimiyle ekibin yönünü belirliyor.", "en": "Sets the team's direction with 20 years of industry experience.", "ar": "تحدد اتجاه الفريق بخبرة 20 عامًا في القطاع." },
+      "img": "", "img2": "", "dept": "yonetim",
+      "social": [{ "ad": "LinkedIn", "url": "https://linkedin.com/", "icon": "work" }, { "ad": "E-posta", "url": "mailto:info@ornek.com", "icon": "mail" }]
+    },
+    {
+      "name": "Kerem Aydın",
+      "role": { "tr": "Sanat Yönetmeni", "en": "Art Director", "ar": "المدير الفني" },
+      "bio": { "tr": "Marka kimliği ve arayüz tasarımında uzman.", "en": "Specialises in brand identity and interface design.", "ar": "متخصص في هوية العلامة التجارية وتصميم الواجهات." },
+      "img": "", "img2": "", "dept": "tasarim",
+      "social": [{ "ad": "Instagram", "url": "https://instagram.com/", "icon": "photo_camera" }, { "ad": "Behance", "url": "https://behance.net/", "icon": "palette" }]
+    },
+    {
+      "name": "Deniz Çelik",
+      "role": { "tr": "Kıdemli Yazılımcı", "en": "Senior Developer", "ar": "مطوّر أول" },
+      "bio": { "tr": "Ölçeklenebilir web altyapıları kuruyor.", "en": "Builds scalable web infrastructure.", "ar": "يبني بنى تحتية ويب قابلة للتوسع." },
+      "img": "", "img2": "", "dept": "yazilim",
+      "social": [{ "ad": "GitHub", "url": "https://github.com/", "icon": "code" }, { "ad": "LinkedIn", "url": "https://linkedin.com/", "icon": "work" }]
+    },
+    {
+      "name": "Merve Şen",
+      "role": { "tr": "UX Tasarımcısı", "en": "UX Designer", "ar": "مصممة تجربة المستخدم" },
+      "bio": { "tr": "Kullanıcı araştırması ve prototipleme odaklı çalışıyor.", "en": "Focuses on user research and prototyping.", "ar": "تركّز على أبحاث المستخدم والنماذج الأولية." },
+      "img": "", "img2": "", "dept": "tasarim",
+      "social": [{ "ad": "LinkedIn", "url": "https://linkedin.com/", "icon": "work" }]
+    },
+    {
+      "name": "Emre Kaplan",
+      "role": { "tr": "Satış Müdürü", "en": "Sales Manager", "ar": "مدير المبيعات" },
+      "bio": { "tr": "Kurumsal müşteri ilişkilerini yönetiyor.", "en": "Manages corporate client relationships.", "ar": "يدير علاقات العملاء المؤسسيين." },
+      "img": "", "img2": "", "dept": "satis",
+      "social": [{ "ad": "LinkedIn", "url": "https://linkedin.com/", "icon": "work" }, { "ad": "Telefon", "url": "tel:+903420000000", "icon": "call" }]
+    },
+    {
+      "name": "Selin Acar",
+      "role": { "tr": "Ön Yüz Geliştirici", "en": "Front-end Developer", "ar": "مطوّرة واجهات أمامية" },
+      "bio": { "tr": "Erişilebilir ve hızlı arayüzler üretiyor.", "en": "Produces accessible, fast interfaces.", "ar": "تنتج واجهات سريعة وسهلة الوصول." },
+      "img": "", "img2": "", "dept": "yazilim",
+      "social": [{ "ad": "GitHub", "url": "https://github.com/", "icon": "code" }]
+    }
+  ],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "desing/data"
+  }
+}

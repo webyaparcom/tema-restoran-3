@@ -1,0 +1,44 @@
+{
+  "name": {
+    "tr": "Rezervasyon",
+    "en": "Reservation",
+    "ar": "الحجز"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hs54qzyeyo",
+  "url": "",
+  "path": "rezervasyon",
+  "index": 1,
+  "icon": "event_seat",
+  "desing": {
+    "header": [],
+    "body": [
+      "b0a81p"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Çevrimiçi masa rezervasyonu (demo).",
+    "en": "Online table reservation (demo).",
+    "ar": "حجز طاولة عبر الإنترنت (تجريبي)."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Rezervasyon",
+    "en": "Reservation",
+    "ar": "الحجز"
+  },
+  "keyword": {
+    "tr": "rezervasyon, masa, bahçe",
+    "en": "reservation, table, garden",
+    "ar": "حجز، طاولة، حديقة"
+  },
+  "text": {},
+  "update": "2026-11-05T22:24:45.898Z",
+  "date": "2026-05-19"
+}
