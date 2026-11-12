@@ -31,7 +31,13 @@
         "logoimg": "",
         "langcolor": "currentColor",
         "langbg": "transparent",
-        "tekSatir": ""
+        "tekSatir": "",
+        "logoDark": "",
+        "duzen": "",
+        "ctaText": "",
+        "ctaHref": "",
+        "temaDugmesi": "",
+        "temaAnahtar": ""
       },
       "version": "1.0.0",
       "icon": "menu"
@@ -508,6 +514,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "id": "c3yutz",
@@ -561,7 +573,10 @@
           "en": "Tuesday – Sunday 12:00 – 22:00 · Closed Monday",
           "ar": "الثلاثاء – الأحد 12:00 – 22:00 · الإثنين مغلق"
         },
-        "social": []
+        "social": [],
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)"
       },
       "data": [],
       "id": "jv3a1b",
@@ -3275,14 +3290,14 @@
           "ar": "راسلنا للأسئلة وحجوزات المجموعات وطلبات الأنظمة الغذائية الخاصة."
         },
         "panelTitle": {
-          "tr": "İletişim Bilgileri",
-          "en": "Contact Details",
-          "ar": "بيانات الاتصال"
+          "tr": "Bize uğrayın",
+          "en": "Come and see us",
+          "ar": "زورونا"
         },
         "panelText": {
-          "tr": "Ofisimize uğrayın, arayın ya da yazın — size yardımcı olmaktan mutluluk duyarız.",
-          "en": "Drop by our office, call or write — we are happy to help.",
-          "ar": "تفضّل بزيارة مكتبنا أو اتصل بنا أو اكتب لنا — يسعدنا مساعدتك."
+          "tr": "Bahçemize uğrayın, arayın ya da yazın; sizi ağırlamaktan memnuniyet duyarız.",
+          "en": "Visit our garden, call or write; we would be glad to host you.",
+          "ar": "زورونا في الحديقة أو اتصلوا بنا أو راسلونا؛ يسعدنا استقبالكم."
         },
         "address": {
           "tr": "Bağlar Yolu No: 3, Nizip, Gaziantep (kurgusal adres)",
@@ -3474,7 +3489,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "id": "eqieu0",
